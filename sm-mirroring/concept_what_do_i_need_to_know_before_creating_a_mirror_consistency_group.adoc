@@ -1,0 +1,20 @@
+---
+permalink: sm-mirroring/concept_what_do_i_need_to_know_before_creating_a_mirror_consistency_group.html
+sidebar: sidebar
+keywords: 
+summary: 'You must have the browser-based SANtricity Unified Manager installed, and have discovered the two storage arrays you want to mirror data between. Then, from Unified Manager, you select the primary volume’s storage array and click Launch to open the browser-based SANtricity System Manager.'
+---
+= What do I need to know before creating a mirror consistency group?
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must have the browser-based SANtricity Unified Manager installed, and have discovered the two storage arrays you want to mirror data between. Then, from Unified Manager, you select the primary volume's storage array and click *Launch* to open the browser-based SANtricity System Manager.
+
+In addition, make sure of the following:
+
+* You must have enough free capacity on the remote storage array to create a secondary volume equal to or greater than the primary volume that you want to mirror.
+* You must have two storage arrays.
+* Each storage array must have two controllers.
+* You must know the password for the local and remote storage arrays.
+* Your local and remote storage arrays must be connected through a Fibre Channel fabric or iSCSI interface.

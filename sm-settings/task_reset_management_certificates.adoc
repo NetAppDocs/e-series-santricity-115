@@ -1,0 +1,34 @@
+---
+permalink: sm-settings/task_reset_management_certificates.html
+sidebar: sidebar
+keywords: 
+summary: 'You can revert the management certificates on the storage array back to the factory self-signed state.'
+---
+= Reset management certificates
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can revert the management certificates on the storage array back to the factory self-signed state.
+
+== Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+* Certificates must be previously imported.
+
+== About this task
+
+Resetting the management certificates on the storage array deletes the current management certificates from each of the controllers. After the certificates are reset, the controllers revert to using self-signed certificates.
+
+== Steps
+
+. Select *Settings* > *Certificates*.
+. From the *Array Management* tab, select *Reset*.
++
+A Confirm Reset Management Certificates dialog box opens.
+
+. Type `reset` in the field, and click *Reset*.
+
+== Results
+
+After your browser refreshes, the controllers revert to using self-signed certificates. As a result, the system prompts users to manually accept the self-signed certificate for their sessions.

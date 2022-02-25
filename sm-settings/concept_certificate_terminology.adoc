@@ -1,0 +1,52 @@
+---
+permalink: sm-settings/concept_certificate_terminology.html
+sidebar: sidebar
+keywords: 
+summary: 'Learn how the certificate terms apply to your storage array.'
+---
+= Certificate terminology
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Learn how the certificate terms apply to your storage array.
+
+|===
+| Term| Description
+a|
+CA
+a|
+A certificate authority (CA) is a trusted entity that issues electronic documents, called digital certificates, for Internet security. These certificates identify website owners, which allows for secure connections between clients and servers.
+a|
+CSR
+a|
+A Certificate Signing Request (CSR) is a message that is sent from an applicant to a certificate authority (CA). The CSR validates the information the CA requires to issue a certificate.
+a|
+Certificate
+a|
+A certificate identifies the owner of a site for security purposes, which prevents attackers from impersonating the site. The certificate contains information about the site owner and the identity of the trusted entity who certifies (signs) this information.
+a|
+Client certificate
+a|
+For security key management, a client certificate validates the storage array's controllers, so the key management server can trust their IP addresses.
+a|
+Key management server certificate
+a|
+For security key management, a key management server certificate validates the server, so the storage array can trust its IP address.
+a|
+Management certificate
+a|
+A management certificate is approved by a certificate authority (CA) and allows secure access to the web application. Also referred to as a "signed certificate."
+a|
+OCSP server
+a|
+The Online Certificate Status Protocol (OCSP) server determines if the certificate authority (CA) has revoked any certificates before their scheduled expiration date, and then blocks the user from accessing a server if the certificate is revoked.
+a|
+Self-signed certificate
+a|
+A self-signed certificate is pre-loaded on the controller. If the site connection is self-signed, a warning message opens before you can proceed to the web application.
+a|
+Trusted certificate
+a|
+A trusted certificate from a certificate authority (CA) is a known certificate at the top of the certificate hierarchy. Also referred to as a "root certificate."
+|===

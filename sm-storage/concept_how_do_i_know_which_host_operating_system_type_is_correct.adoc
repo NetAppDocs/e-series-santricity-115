@@ -1,0 +1,83 @@
+---
+permalink: sm-storage/concept_how_do_i_know_which_host_operating_system_type_is_correct.html
+sidebar: sidebar
+keywords: 
+summary: 'The Host Operating System Type field contains the operating system of the host. You can select the recommended host type from the drop-down list or allow the Host Context Agent \(HCA\) to configure the host and appropriate host operating system type.'
+---
+= How do I know which host operating system type is correct?
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Host Operating System Type field contains the operating system of the host. You can select the recommended host type from the drop-down list or allow the Host Context Agent (HCA) to configure the host and appropriate host operating system type.
+
+|===
+| Host Operating System type| Operating System (OS) and multipath driver
+a|
+AIX MPIO
+a|
+The Advanced Interactive Executive (AIX) OS and the native MPIO driver
+a|
+AVT_4M
+a|
+Silicon Graphics, Inc. (SGI) proprietary multipath driver; refer to the SGI installation documentation for more information
+a|
+Factory Default
+a|
+This is reserved for the initial startup of the storage array and should be changed to match the host operating system and multipath driver being used for the particular host
+a|
+HP-UX
+a|
+The HP-UX OS with native multipath driver
+a|
+Linux (ATTO)
+a|
+The Linux OS and the ATTO Technology, Inc. driver (must use ATTO FC HBAs)
+a|
+Linux (DM-MP)
+a|
+The Linux OS and the native DM-MP driver
+a|
+Linux (Pathmanager)
+a|
+The Linux OS and the SGI proprietary multipath driver; refer to the SGI installation documentation for more information
+a|
+Mac OS
+a|
+The Mac OS and the ATTO Technology, Inc. driver
+a|
+ONTAP
+a|
+FlexArray
+a|
+Solaris (version 11 or later)
+a|
+The Solaris 11 or later OS and the native MPxIO driver
+a|
+Solaris (version 10 or earlier)
+a|
+The Solaris 10 or earlier OS and the native MPxIO driver
+a|
+SVC
+a|
+IBM SAN Volume Controller
+a|
+VMware
+a|
+The ESXi OS
+a|
+Windows or Windows Clustered
+a|
+The Windows Server OS and Windows MPIO with a DSM driver
+a|
+Windows (ATTO)
+a|
+The Windows OS and the ATTO Technology, Inc. driver
+|===
+After the HCA is installed and the storage is attached to the host, the HCA sends the host topology to the storage controllers through the I/O path. Based on the host topology, the storage controllers automatically define the host and the associated host ports, and then set the host type.
+
+[NOTE]
+====
+If the HCA does not select the recommended host type, you must manually set the host type in System Manager.
+
+====

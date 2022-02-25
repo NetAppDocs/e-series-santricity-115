@@ -1,0 +1,41 @@
+---
+permalink: sm-settings/task_step_1_complete_and_submit_csr_for_authentication_with_a_key_server.html
+sidebar: sidebar
+keywords: 
+summary: 'To receive a certificate authority \(CA\) certificate for a key management server, you must first generate a certificate signing request \(CSR\) file.'
+---
+= Complete CA certificate signing request (CSR) for a key server
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To receive a certificate authority (CA) certificate for a key management server, you must first generate a certificate signing request (CSR) file.
+
+== Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+
+== About this task
+
+This task describes how to generate the .CSR files (certificate signing requests) that you send to a CA to receive signed certificates for a key management server. During this task, you must provide information about your organization.
+
+== Steps
+
+. Select *Settings* > *Certificates*.
+. From the *Key Management* tab, select *Complete CSR*.
+. Enter the following information:
+ ** *Common name* -- A name that identifies this CSR, such as the storage array name, which will be displayed in the certificate files.
+ ** *Organization* -- The full, legal name of your company or organization. Include suffixes, such as Inc. or Corp.
+ ** *Organizational unit (optional)* -- The division of your organization that is handling the certificate.
+ ** *City/Locality* -- The city or locality where your organization is located.
+ ** *State/Region (optional)* -- The state or region where your organization is located.
+ ** *Country ISO code* -- The two-digit ISO (International Organization for Standardization) code, such as US, where your organization is located.
+. Click *Download*.
++
+A .CSR file is saved to your local system.
+
+. Send the .CSR file(s) to your CA.
+
+== After you finish
+
+When you obtain the client and server certificates from the key management server, import them for authentication with the storage array controllers.

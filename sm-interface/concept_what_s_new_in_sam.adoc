@@ -1,0 +1,48 @@
+---
+permalink: sm-interface/concept_what_s_new_in_sam.html
+sidebar: sidebar
+keywords: 
+summary: 'System Manager includes the following new features.'
+---
+= What's new in SANtricity System Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+System Manager includes the following new features.
+
+== New features in Version 11.53
+
+This version includes only minor enhancements and fixes.
+
+== New features in Version 11.52
+
+|===
+| New feature| Description
+a|
+NVMe over FC host interface
+a|
+An NVMe over Fibre Channel host connection can now be ordered for EF570 or E5700 controller models, in addition to the existing support for NVMe over RoCE and NVMe over InfiniBand. System Manager includes statistics for this new connection type in *Settings* > *System* under "NVMe over Fibre Channel details."
+|===
+
+== New features in Version 11.51
+
+This version includes only minor enhancements and fixes.
+
+== New features in Version 11.50
+
+|===
+| New feature| Description
+a|
+NVMe over RoCE interface
+a|
+An NVMe over RoCE host connection can now be ordered for EF570 or E5700 DE Series controllers. System Manager includes new functions for configuring the network connection to the host (available from the *Hardware* page or from *Settings* > *System*), and functions for viewing data about the NVMe over RoCE connections to the storage array (available from *Support* > *Support Center* or from *Settings* > *System*).
+a|
+Manual drive selection for volume groups
+a|
+In addition to convenient automatic selection, a new option is available for selecting individual drives when you create a volume group. In general, automatic drive selection is recommended, but the individual drive selection option is available for environments with special drive location requirements.
+a|
+SANtricity Unified Manager
+a|
+Unified Manager is a separately installed, browser-based application that discovers and manages E2800 series controllers and E5700 series controllers. While this new application is not a new feature of System Manager, it does provide a new browser-based enterprise framework from which System Manager can be launched for discovered storage arrays. The new Unified Manager can be downloaded from the Support software downloads area.
+|===

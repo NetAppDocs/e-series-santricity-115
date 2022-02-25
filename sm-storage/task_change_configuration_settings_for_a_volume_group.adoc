@@ -1,0 +1,73 @@
+---
+permalink: sm-storage/task_change_configuration_settings_for_a_volume_group.html
+sidebar: sidebar
+keywords: 
+summary: 'You can change the RAID level for a volume group to accommodate the performance needs of the applications that are accessing the volume group. This operation changes a volume group’s RAID level without impacting data I/O.'
+---
+= Change RAID level for a volume group
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can change the RAID level for a volume group to accommodate the performance needs of the applications that are accessing the volume group. This operation changes a volume group's RAID level without impacting data I/O.
+
+== Before you begin
+
+* The volume group must be in Optimal status.
+* You must have enough capacity in the volume group to convert to the new RAID level.
+* You cannot change the RAID level of a pool. System Manager automatically configures pools as RAID 6.
+
+== About this task
+
+You cannot cancel this operation after it begins. Your data remains available during this operation.
+
+More about RAID levels
+
+|===
+| RAID Level| Description
+a|
+RAID 0 striping
+a|
+Offers high performance, but does not provide any data redundancy. If a single drive fails in the volume group, all of the associated volumes fail, and all data is lost.
+
+A striping RAID group combines two or more drives into one large, logical drive.
+
+a|
+RAID 1 mirroring
+a|
+Offers high performance and the best data availability, and is suitable for storing sensitive data on a corporate or personal level.
+
+Protects your data by automatically mirroring the contents of one drive to the second drive in the mirrored pair. It provides protection in the event of a single drive failure.
+
+a|
+RAID 10 striping/mirroring
+a|
+Provides a combination of RAID 0 (striping) and RAID 1 (mirroring), and is achieved when four or more drives are selected.
+
+RAID 10 is suitable for high volume transaction applications, such as a database, that require high performance and fault tolerance.
+
+a|
+RAID 5
+a|
+Optimal for multi-user environments (such as database or file system storage) where typical I/O size is small and there is a high proportion of read activity.
+a|
+RAID 6
+a|
+Optimal for environments requiring redundancy protection beyond RAID 5, but not requiring high write performance.
+|===
+RAID 3 can be assigned only to volume groups using the command line interface (CLI).
+
+== Steps
+
+. Select *Storage* > *Pools & Volume Groups*.
+. Select the volume group that you want to edit, and then click *View/Edit Settings*.
++
+The Volume Group Settingsdialog box appears.
+
+. Select the RAID level from the drop-down list, and then click *Save*.
++
+A confirmation dialog box appears if capacity is reduced, volume redundancy is lost, or shelf/drawer loss protection is lost as a result of the RAID level change. Select *Yes* to continue; otherwise click *No*.
+
+== Results
+
+When you change the RAID level for a volume group, System Manager changes the RAID levels of every volume that comprises the volume group. Performance might be slightly affected during the operation.
