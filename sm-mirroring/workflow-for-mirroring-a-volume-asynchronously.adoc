@@ -1,0 +1,20 @@
+---
+permalink: sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html
+sidebar: sidebar
+keywords: 
+summary: 'In System Manager, you can mirror a volume asynchronously by following these steps.'
+---
+= Workflow for mirroring a volume asynchronously
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+In System Manager, you can mirror a volume asynchronously by following these steps.
+
+image::../media/sam1130-flw-async-set-up-mirroring.gif[]
+
+== Workflow for completing a mirrored pair for primary volumes on a legacy system that is not managed with System Manager
+
+If you created a primary volume on a legacy system that is not managed with System Manager, you can create the secondary volume with SANtricity System Manager.
+
+image::../media/workflow-for-mirroring-volume-asynchronously.png[]

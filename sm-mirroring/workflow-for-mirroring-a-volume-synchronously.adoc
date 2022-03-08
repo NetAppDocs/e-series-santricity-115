@@ -1,0 +1,14 @@
+---
+permalink: sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html
+sidebar: sidebar
+keywords: 
+summary: 'In SANtricity System Manager, you can mirror a volume synchronously by following these steps.'
+---
+= Workflow for mirroring a volume synchronously
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+In SANtricity System Manager, you can mirror a volume synchronously by following these steps.
+
+image::../media/sam1130-flw-sync-create.gif[]

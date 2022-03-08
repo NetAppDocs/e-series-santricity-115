@@ -1,0 +1,18 @@
+---
+permalink: sm-storage/what-is-data-assurance.html
+sidebar: sidebar
+keywords: 
+summary: 'Data Assurance \(DA\) checks for and corrects errors that might occur as data is communicated between a host and a storage array. DA capabilities are presented at the pool and volume group level in System Manager.'
+---
+= What is Data Assurance?
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Data Assurance (DA) checks for and corrects errors that might occur as data is communicated between a host and a storage array. DA capabilities are presented at the pool and volume group level in System Manager.
+
+The Data Assurance (DA) feature increases data integrity across the entire storage system. DA enables the storage array to check for errors that might occur when data is moved between the hosts and the drives. When this feature is enabled, the storage array appends error-checking codes (also known as cyclic redundancy checks or CRCs) to each block of data in the volume. After a data block is moved, the storage array uses these CRC codes to determine if any errors occurred during transmission. Potentially corrupted data is neither written to disk nor returned to the host.
+
+If you want to use the DA feature, select a pool or volume group that is DA capable when you create a new volume (look for *Yes* next to DA in the pool and volume group candidates table).
+
+Make sure you assign these DA-enabled volumes to a host using an I/O interface that is capable of DA. I/O interfaces that are capable of DA include Fibre Channel, SAS, iSCSI over TCP/IP, and iSER over InfiniBand (iSCSI Extensions for RDMA/IB). DA is not supported by SRP over InfiniBand.
