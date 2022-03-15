@@ -1,0 +1,63 @@
+---
+permalink: sm-settings/step-1-complete-a-csr.html
+sidebar: sidebar
+keywords: 
+summary: 'To receive a certificate authority \(CA\) certificate for the storage array’s controllers, you must first generate a certificate signing request \(CSR\) file for each controller in the storage array.'
+---
+= Complete a CA certificate signing request (CSR) for the controllers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To receive a certificate authority (CA) certificate for the storage array's controllers, you must first generate a certificate signing request (CSR) file for each controller in the storage array.
+
+== Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+
+== About this task
+
+This task describes how to generate the .CSR files (certificate signing requests) that you send to a CA to receive signed, management certificates for the controllers. You must provide information about your organization, plus the IP address or DNS name of the controller(s). During this task, one .CSR file is generated if there is only one controller in the storage array and two .CSR files if there are two controllers.
+
+== Steps
+
+. Select *Settings* > *Certificates*.
+. From the *Array Management* tab, select *Complete CSR*.
++
+[NOTE]
+====
+If you see a dialog box prompting you to accept a self-signed certificate for the second controller, click *Accept Self-Signed Certificate* to proceed.
+====
+
+. Enter the following information, and then click *Next*:
+ ** *Organization* -- The full, legal name of your company or organization. Include suffixes, such as Inc. or Corp.
+ ** *Organizational unit (optional)* -- The division of your organization that is handling the certificate.
+ ** *City/Locality* -- The city where your storage array or business is located.
+ ** *State/Region (optional)* -- The state or region where your storage array or business is located.
+ ** *Country ISO code* -- Your country's two-digit ISO (International Organization for Standardization) code, such as US.
+
++
+[CAUTION]
+====
+Some fields might be pre-populated with the appropriate information, such as the IP address of the controller. Do not change prepopulated values unless you are certain they are incorrect. For example, if you have not yet completed a CSR, the controller IP address is set to "`localhost.`" In this case, you must change "`localhost`" to the DNS name or IP address of the controller.
+====
+. Verify or enter the following information about controller A in your storage array:
+ ** *Controller A common name* -- The IP address or DNS name of controller A is displayed by default. Make sure this address is correct; it must match exactly what you enter to access System Manager in the browser.
+ ** *Controller A alternate IP addresses* -- If the common name is an IP address, you can optionally enter any additional IP addresses or aliases for controller A. For multiple entries, use a comma-delimited format.
+ ** *Controller A alternate DNS names* -- If the common name is a DNS name, enter any additional DNS names for controller A. For multiple entries, use a comma-delimited format. If there are no alternate DNS names, but you entered a DNS name in the first field, copy that name here.
+If the storage array has only one controller, the *Finish* button is available. If the storage array has two controllers, the *Next* button is available.
+
++
+[NOTE]
+====
+Do not click the *Skip this step* link when you are initially creating a CSR request. This link is provided in error-recovery situations. In rare cases, a CSR request might fail on one controller, but not on the other. This link allows you to skip the step for creating a CSR request on controller A if it is already defined, and continue to the next step for re-creating a CSR request on controller B.
+====
+. If there is only one controller, click *Finish*. If there are two controllers, click *Next* to enter information for controller B (same as above), and then click *Finish*.
++
+For a single controller, one .CSR file is downloaded to your local system. For dual controllers, two .CSR files are downloaded. The folder location of the download depends on your browser.
+
+. Send the .CSR file(s) to your CA.
+
+== After you finish
+
+When you receive the digital certificates, import the appropriate certificate files that the CA sent to you.

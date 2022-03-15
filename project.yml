@@ -1,4 +1,17 @@
+---
 settings:
-  platform: catalyst
+  name: Catalyst Migration
   internal:
     pdf_enabled: false
+  prod:
+    pdf_enabled: true
+sidebar:
+  entries:
+  - title: Main
+    url: "/index.html"
+  - section: sm-hardware
+  - section: sm-interface
+  - section: sm-mirroring
+  - section: sm-settings
+  - section: sm-storage
+  - section: sm-support

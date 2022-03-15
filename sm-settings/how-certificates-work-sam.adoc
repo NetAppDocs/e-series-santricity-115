@@ -1,0 +1,24 @@
+---
+permalink: sm-settings/how-certificates-work-sam.html
+sidebar: sidebar
+keywords: CA certificates,CSR files
+summary: 'A certificate authority \(CA\) is a trusted entity that issues electronic documents, called digital certificates, for Internet security. These certificates identify website owners, which allows for secure connections between clients and servers.'
+---
+= How CA certificates work
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A certificate authority (CA) is a trusted entity that issues electronic documents, called digital certificates, for Internet security. These certificates identify website owners, which allows for secure connections between clients and servers.
+
+When you open a browser and try connecting to System Manager through the controller management port, the browser attempts to verify that the storage array's controller is a trusted source. If the browser cannot locate a digital certificate for the controller, it alerts you that the certificate is not signed by a recognized authority and asks if you want to continue. If you no longer want to see this alert, you must get a signed, digital certificate from a CA.
+
+If you are using an external key management server with the Drive Security feature, you can also create certificates for authentication between that server and the controllers or you can accept the self-signed certificate(s) from the storage array.
+
+The following steps are required for using a digital certificate from a trusted authority:
+
+. Go to *Settings* > *Certificates*. Your user login must include Security Admin permissions; otherwise, *Certificates* does not appear on the page.
+. Create a Certificate Signing Request (CSR) for each controller or for a key management server.
+. Send the .CSR file(s) to a CA, and then wait for them to send you the certificates.
+. Import the trusted (intermediate and root) certificate from the CA. These certificates establish a point of trust for a CA hierarchy.
+. Import the signed, management certificates for each controller or the key management server.
