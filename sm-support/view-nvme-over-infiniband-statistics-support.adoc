@@ -1,0 +1,31 @@
+---
+permalink: sm-support/view-nvme-over-infiniband-statistics-support.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view data about the NVMe over InfiniBand connections to your storage array.'
+---
+= View NVMe over InfiniBand statistics packages
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view data about the NVMe over InfiniBand connections to your storage array.
+
+== About this task
+
+System Manager shows these types of NVMe over InfiniBand statistics. All statistics are read-only and cannot be set.
+
+* *NVMe Controller statistics* -- Provides statistics for the NVMe controller, including timeouts and connection failures.
+* *NVMe Queue statistics* -- Provides statistics for the NVMe queue, including connection requests and command status.
+
+You can view each of these statistics as raw statistics or as baseline statistics. Raw statistics are all of the statistics that have been gathered since the controllers were started. Baseline statistics are point-in-time statistics that have been gathered since you set the baseline time.
+
+You can access NVMe over InfiniBand statistics from the System page (*Settings* > *System*) or from the Support page. These instructions describe how to access the statistics from the Support page.
+
+== Steps
+
+. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select *View NVMe over InfiniBand Statistics Packages*.
+. To set the baseline, click *Set new baseline*.
++
+Setting the baseline sets a new starting point for the collection of the statistics. The same baseline is used for all NVMe statistics.
