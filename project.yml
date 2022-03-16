@@ -7,11 +7,11 @@ settings:
     pdf_enabled: true
 sidebar:
   entries:
-  - title: Main
+  - title: SANtricity 11.5 OLH
     url: "/index.html"
-  - section: sm-hardware
   - section: sm-interface
-  - section: sm-mirroring
-  - section: sm-settings
   - section: sm-storage
+  - section: sm-mirroring
+  - section: sm-hardware
+  - section: sm-settings
   - section: sm-support
