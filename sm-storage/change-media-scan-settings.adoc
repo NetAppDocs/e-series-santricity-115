@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/change-media-scan-settings.html
 sidebar: sidebar
-keywords: 
-summary: 'A media scan is a background operation that scans all data and redundancy information in the volume. Use this option to enable or disable the media scan settings for one or more volumes, or to change the scan duration.'
+keywords: change, media, scan, set, volume
+summary: "A media scan is a background operation that scans all data and redundancy information in the volume. Use this option to enable or disable the media scan settings for one or more volumes, or to change the scan duration."
 ---
 = Change media scan settings for a volume
 :icons: font
@@ -11,7 +11,7 @@ summary: 'A media scan is a background operation that scans all data and redunda
 [.lead]
 A media scan is a background operation that scans all data and redundancy information in the volume. Use this option to enable or disable the media scan settings for one or more volumes, or to change the scan duration.
 
-== Before you begin
+== What you'll need
 
 Understand the following:
 
@@ -39,7 +39,7 @@ You can perform the following actions:
 . Select *Storage* > *Volumes*.
 . Select any volume, and then select *More* > *Change media scan settings*.
 +
-The Change Drive Media Scan Settings dialog box appears. All volumes on the storage array appear in this dialog box.
+The *Change Drive Media Scan Settings* dialog box appears. All volumes on the storage array appear in this dialog box.
 
 . To enable the media scan, select the *Scan media over the course of...* check box.
 +

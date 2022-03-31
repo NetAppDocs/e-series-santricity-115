@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/change-configuration-settings-for-a-volume-group.html
 sidebar: sidebar
-keywords: 
-summary: 'You can change the RAID level for a volume group to accommodate the performance needs of the applications that are accessing the volume group. This operation changes a volume group’s RAID level without impacting data I/O.'
+keywords: change, raid level, volume group
+summary: "You can change the RAID level for a volume group to accommodate the performance needs of the applications that are accessing the volume group. This operation changes a volume group’s RAID level without impacting data I/O."
 ---
 = Change RAID level for a volume group
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can change the RAID level for a volume group to accommodate the pe
 [.lead]
 You can change the RAID level for a volume group to accommodate the performance needs of the applications that are accessing the volume group. This operation changes a volume group's RAID level without impacting data I/O.
 
-== Before you begin
+== What you'll need
 
 * The volume group must be in Optimal status.
 * You must have enough capacity in the volume group to convert to the new RAID level.
@@ -23,6 +23,7 @@ You cannot cancel this operation after it begins. Your data remains available du
 
 More about RAID levels
 
+[cols="2*",options="header"]
 |===
 | RAID Level| Description
 a|
