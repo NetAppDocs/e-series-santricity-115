@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/assign-hot-spares-hardware.html
 sidebar: sidebar
-keywords: 
-summary: 'You can assign a hot spare as a standby drive for additional data protection in RAID 1, RAID 5, or RAID 6 volume groups. If a drive fails in one of these volume groups, the controller reconstructs data from the failed drive to the hot spare.'
+keywords: assign, hot spares
+summary: "You can assign a hot spare as a standby drive for additional data protection in RAID 1, RAID 5, or RAID 6 volume groups. If a drive fails in one of these volume groups, the controller reconstructs data from the failed drive to the hot spare."
 ---
 = Assign hot spares
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can assign a hot spare as a standby drive for additional data prot
 [.lead]
 You can assign a hot spare as a standby drive for additional data protection in RAID 1, RAID 5, or RAID 6 volume groups. If a drive fails in one of these volume groups, the controller reconstructs data from the failed drive to the hot spare.
 
-== Before you begin
+== What you'll need
 
 * RAID 1, RAID 5, or RAID 6 volume groups must be created. (Hot spares cannot be used for pools. Instead, a pool uses spare capacity within each drive for its data protection.)
 * A drive that meets the following criteria must be available:

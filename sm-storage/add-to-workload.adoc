@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/add-to-workload.html
 sidebar: sidebar
-keywords: 
-summary: 'You can add one or more volumes to an existing or new workload for volumes that are not currently associated with a workload.'
+keywords: add, workload
+summary: "You can add one or more volumes to an existing or new workload for volumes that are not currently associated with a workload."
 ---
 = Add to workload
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/assign-volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'You must assign a volume to a host or a host cluster so it can be used for I/O operations. This assignment grants a host or host cluster access to one or more volumes in a storage array.'
+keywords: assign, volumes
+summary: "You must assign a volume to a host or a host cluster so it can be used for I/O operations. This assignment grants a host or host cluster access to one or more volumes in a storage array."
 ---
 = Assign volumes
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You must assign a volume to a host or a host cluster so it can be used
 [.lead]
 You must assign a volume to a host or a host cluster so it can be used for I/O operations. This assignment grants a host or host cluster access to one or more volumes in a storage array.
 
-== Before you begin
+== What you'll need
 
 Keep these guidelines in mind when you assign volumes:
 
