@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/add-member-volumes-to-a-snapshot-consistency-group.html
 sidebar: sidebar
-keywords: 
-summary: 'You can add a new member volume to an existing snapshot consistency group. When you add a new member volume, you also must reserve capacity for the member volume.'
+keywords: add, member, volume, snapshot, consistency, group
+summary: "You can add a new member volume to an existing snapshot consistency group. When you add a new member volume, you also must reserve capacity for the member volume."
 ---
 = Add member volume to a snapshot consistency group
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can add a new member volume to an existing snapshot consistency gr
 [.lead]
 You can add a new member volume to an existing snapshot consistency group. When you add a new member volume, you also must reserve capacity for the member volume.
 
-== Before you begin
+== What you'll need
 
 * The member volume must be Optimal.
 * The snapshot consistency group must have less than the maximum number of allowable volumes (as defined by your configuration).
