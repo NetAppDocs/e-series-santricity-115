@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/configure-management-ports.html
 sidebar: sidebar
-keywords: 
-summary: 'The controller includes an Ethernet port used for system management. If necessary, you can change its transmission parameters and IP addresses.'
+keywords: configure, management, port
+summary: "The controller includes an Ethernet port used for system management. If necessary, you can change its transmission parameters and IP addresses."
 ---
 = Configure management port
 :experimental:
@@ -34,30 +34,32 @@ The controller's context menu appears.
 
 . Select *Configure management ports*.
 +
-The Configure Management Ports dialog box opens.
+The *Configure Management Ports* dialog box opens.
 
 . Make sure port 1 is displayed, and then click *Next*.
 . Select the configuration port settings, and then click *Next*.
 +
 Field Details
 +
+[options="header"]
 |===
 | Field| Description
 a|
 Speed and duplex mode
 a|
-Keep the *Auto-negotiate* setting if you want System Manager to determine the transmission parameters between the storage array and the network; or if you know the speed and mode of your network, select the parameters from the drop-down list. Only the valid speed and duplex combinations appear in the list.
+Keep the Auto-negotiate setting if you want System Manager to determine the transmission parameters between the storage array and the network; or if you know the speed and mode of your network, select the parameters from the drop-down list. Only the valid speed and duplex combinations appear in the list.
 a|
 Enable IPv4 / Enable IPv6
 a|
 Select one or both options to enable support for IPv4 and IPv6 networks.
 |===
-If you select *Enable IPv4*, a dialog box opens for selecting IPv4 settings after you click *Next*. If you select *Enable IPv6*, a dialog box opens for selecting IPv6 settings after you click *Next*. If you select both options, the dialog box for IPv4 settings opens first, and then after you click *Next*, the dialog box for IPv6 settings opens.
+If you select Enable IPv4, a dialog box opens for selecting IPv4 settings after you click Next. If you select Enable IPv6, a dialog box opens for selecting IPv6 settings after you click Next. If you select both options, the dialog box for IPv4 settings opens first, and then after you click Next, the dialog box for IPv6 settings opens.
 
 . Configure the IPv4 and/or IPv6 settings, either automatically or manually.
 +
 Field Details
 +
+[options="header"]
 |===
 | Field| Description
 a|
