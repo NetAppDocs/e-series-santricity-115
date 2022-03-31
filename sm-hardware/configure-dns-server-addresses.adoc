@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/configure-dns-server-addresses.html
 sidebar: sidebar
-keywords: 
-summary: 'Domain Name System \(DNS\) is used to resolve fully qualified domain names for the controllers and a Network Time Protocol \(NTP\) server. The management ports on the storage array can support IPv4 or IPv6 protocols simultaneously.'
+keywords: configure, dns, server, addresses
+summary: "Domain Name System (DNS) is used to resolve fully qualified domain names for the controllers and a Network Time Protocol (NTP) server. The management ports on the storage array can support IPv4 or IPv6 protocols simultaneously."
 ---
 = Configure DNS server addresses
 :icons: font
@@ -38,20 +38,20 @@ The controller's context menu appears.
 
 . Select *Configure DNS server*.
 +
-The Configure Domain Name System (DNS) Server dialog box opens.
+The *Configure Domain Name System (DNS) Server* dialog box opens.
 
 . Select one of the following options:
- ** *Automatically obtain DNS server addresses from DHCP server* -- The detected DNS server addresses are shown.
+ ** Automatically obtain DNS server addresses from DHCP server -- The detected DNS server addresses are shown.
 +
 [NOTE]
 ====
 If the storage array is set to use a static DNS address, no DNS servers appear.
 ====
 
- ** *Manually specify DNS server addresses* -- Enter a primary DNS server address and a backup DNS server address. The backup server is optional. (These address fields appear after you select the radio button.) These addresses can be IPv4 addresses or IPv6 addresses.
+ ** Manually specify DNS server addresses -- Enter a primary DNS server address and a backup DNS server address. The backup server is optional. (These address fields appear after you select the radio button.) These addresses can be IPv4 addresses or IPv6 addresses.
 . Click *Save*.
 . Repeat these steps for the other controller.
 
 == Results
 
-The DNS configuration is displayed in the controller settings, DNS / NTP tab.
+The DNS configuration is displayed in the controller settings, *DNS / NTP* tab.
