@@ -11,11 +11,11 @@ summary: "You can change a volume’s settings such as its name, host assignment
 [.lead]
 You can change a volume's settings such as its name, host assignment, segment size, modification priority, caching, and so on.
 
-== What you'll need
+.Before you begin
 
 The volume you want to change is in Optimal status.
 
-== Steps
+.Steps
 
 . Select *Storage* > *Volumes*.
 . Select the volume that you want to change, and then select *View/Edit Settings*.
@@ -136,10 +136,10 @@ Shows the SSD Cache setting, which you can enable on compatible volumes as a way
 
 . Click *Save*.
 
-== Result
+.Result
 
 System Manager changes the volume's settings based on your selections.
 
-== After you finish
+.After you finish
 
 Select *Home* > *View Operations in Progress* to view the progress of the change operations that are currently running for the selected volume.
