@@ -12,12 +12,12 @@ summary: "If your controller includes an iSER over InfiniBand port, you can conf
 [.lead]
 If your controller includes an iSER over InfiniBand port, you can configure the network connection to the host. The configuration settings are available from the Hardware page or the System page.
 
-== Before you begin
+.Before you begin
 
 * Your controller must include an iSER over InfiniBand port; otherwise, the iSER over InfiniBand settings are not available in System Manager.
 * You must know the IP address of the host connection.
 
-== About this task
+.About this task
 
 You can access the iSER over InfiniBand configuration from the *Hardware* page or from menu:Settings[System]. This task describes how to configure the ports from the *Hardware* page.
 
@@ -26,7 +26,7 @@ You can access the iSER over InfiniBand configuration from the *Hardware* page o
 The iSER over InfiniBand settings and functions appear only if your storage array's controller includes an iSER over InfiniBand port.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.
