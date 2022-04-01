@@ -18,11 +18,11 @@ During the creation of a snapshot group, reserved capacity is created to store t
 
 .Steps
 
-. Select *menu:Storage[Pools & Volume Groups]*.
+. Select menu:Storage[Pools & Volume Groups].
 . Click the *Reserved Capacity* tab.
 . Select the snapshot group that you want to edit, and then click *View/Edit Settings*.
 +
-The Snapshot Group Settings dialog box appears.
+The *Snapshot Group Settings* dialog box appears.
 
 . Change the settings for the snapshot group as appropriate.
 +

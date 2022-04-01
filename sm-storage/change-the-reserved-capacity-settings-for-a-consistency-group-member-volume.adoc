@@ -18,11 +18,11 @@ Changing the reserved capacity settings for an individual member volume also cha
 
 .Steps
 
-. Select *menu:Storage[Pools & Volume Groups]*.
+. Select menu:Storage[Pools & Volume Groups].
 . Click the *Reserved Capacity* tab.
 . Select the consistency group member volume that you want to edit, and then click *View/Edit Settings*.
 +
-The Member Volume Reserved Capacity Settings dialog box appears.
+The *Member Volume Reserved Capacity Settings* dialog box appears.
 
 . Change the reserved capacity settings for the member volume as appropriate.
 +
@@ -49,8 +49,6 @@ You can choose one of the following policies:
 
  ** *Purge oldest snapshot image* -- System Manager automatically purges the oldest snapshot image in the consistency group, which releases the member's reserved capacity for reuse within the group.
  ** *Reject writes to base volume* -- When the reserved capacity reaches its maximum defined percentage, System Manager rejects any I/O write request to the base volume that triggered the reserved capacity access.
-
-+
 |===
 ====
 
