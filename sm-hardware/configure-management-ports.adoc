@@ -54,13 +54,14 @@ Enable IPv4 / Enable IPv6
 a|
 Select one or both options to enable support for IPv4 and IPv6 networks.
 |===
-=====
+====
 If you select Enable IPv4, a dialog box opens for selecting IPv4 settings after you click Next. If you select Enable IPv6, a dialog box opens for selecting IPv6 settings after you click Next. If you select both options, the dialog box for IPv4 settings opens first, and then after you click Next, the dialog box for IPv6 settings opens.
 
 . Configure the IPv4 and/or IPv6 settings, either automatically or manually.
-
-Field Details
 +
+.Field Details
+[%collapsible]
+====
 [cols="1a,3a",options="header"]
 |===
 | Field| Description
@@ -77,6 +78,7 @@ NOTE: If you change the IP address configuration, you lose the management path t
 
 |===
 ====
+
 . Click *Finish*.
 
 .Results
