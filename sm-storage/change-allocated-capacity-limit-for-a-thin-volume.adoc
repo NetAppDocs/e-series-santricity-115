@@ -11,13 +11,13 @@ summary: "For thin volumes capable of allocating space on demand, you can change
 [.lead]
 For thin volumes capable of allocating space on demand, you can change the limit that restricts the allocated capacity to which a thin volume can automatically expand. You also can change the percentage point at which an alert (warning threshold exceeded) is sent to the Notifications area on the Home page when a thin volume is near the allocated capacity limit. You can choose to enable or disable this alert notification.
 
-== About this task
+.About this task
 
 System Manager automatically expands the allocated capacity based on the allocated capacity limit. The allocated capacity limit allows you to limit the thin volume's automatic growth below the reported capacity. When the amount of data written gets close to the allocated capacity, you can change the allocated capacity limit.
 
 When changing a thin volume's allocated capacity limit and warning threshold, you must take into account the space to be consumed by both the volume's user data and copy services data.
 
-== Steps
+.Steps
 
 . Select *Storage* > *Volumes*.
 . Select the *Thin Volume Monitoring* tab.

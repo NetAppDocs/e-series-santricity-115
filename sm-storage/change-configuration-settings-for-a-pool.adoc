@@ -11,7 +11,7 @@ summary: "You can edit the settings for a pool if you want to change its name, e
 [.lead]
 You can edit the settings for a pool if you want to change its name, edit the capacity alerts settings, its modification priorities, or preservation capacity.
 
-== Steps
+.Steps
 
 . Select *Storage* > *Pools & Volume Groups*.
 . Select the pool that you want to edit, and then click *View/Edit Settings*.

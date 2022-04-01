@@ -11,13 +11,13 @@ summary: "You can change the RAID level for a volume group to accommodate the pe
 [.lead]
 You can change the RAID level for a volume group to accommodate the performance needs of the applications that are accessing the volume group. This operation changes a volume group's RAID level without impacting data I/O.
 
-== What you'll need
+.Before you begin
 
 * The volume group must be in Optimal status.
 * You must have enough capacity in the volume group to convert to the new RAID level.
 * You cannot change the RAID level of a pool. System Manager automatically configures pools as RAID 6.
 
-== About this task
+.About this task
 
 You cannot cancel this operation after it begins. Your data remains available during this operation.
 
@@ -58,7 +58,7 @@ Optimal for environments requiring redundancy protection beyond RAID 5, but not 
 |===
 RAID 3 can be assigned only to volume groups using the command line interface (CLI).
 
-== Steps
+.Steps
 
 . Select *Storage* > *Pools & Volume Groups*.
 . Select the volume group that you want to edit, and then click *View/Edit Settings*.
@@ -69,6 +69,6 @@ The Volume Group Settingsdialog box appears.
 +
 A confirmation dialog box appears if capacity is reduced, volume redundancy is lost, or shelf/drawer loss protection is lost as a result of the RAID level change. Select *Yes* to continue; otherwise click *No*.
 
-== Results
+.Results
 
 When you change the RAID level for a volume group, System Manager changes the RAID levels of every volume that comprises the volume group. Performance might be slightly affected during the operation.
