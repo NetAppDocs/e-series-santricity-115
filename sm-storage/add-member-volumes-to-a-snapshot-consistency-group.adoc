@@ -5,6 +5,7 @@ keywords: add, member, volume, snapshot, consistency, group
 summary: "You can add a new member volume to an existing snapshot consistency group. When you add a new member volume, you also must reserve capacity for the member volume."
 ---
 = Add member volume to a snapshot consistency group
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -23,7 +24,7 @@ You can add standard volumes or thin volumes to the snapshot consistency group. 
 
 .Steps
 
-. Select *Storage* > *Snapshots*.
+. Select *menu:Storage[Snapshots]*.
 . Select the *Snapshot Consistency Groups* tab.
 +
 The table appears and displays all the snapshot consistency groups associated with the storage array.

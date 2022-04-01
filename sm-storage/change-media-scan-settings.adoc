@@ -5,6 +5,7 @@ keywords: change, media, scan, set, volume
 summary: "A media scan is a background operation that scans all data and redundancy information in the volume. Use this option to enable or disable the media scan settings for one or more volumes, or to change the scan duration."
 ---
 = Change media scan settings for a volume
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -36,8 +37,8 @@ You can perform the following actions:
 
 .Steps
 
-. Select *Storage* > *Volumes*.
-. Select any volume, and then select *More* > *Change media scan settings*.
+. Select *menu:Storage[Volumes]*.
+. Select any volume, and then select *menu:More[Change media scan settings]*.
 +
 The *Change Drive Media Scan Settings* dialog box appears. All volumes on the storage array appear in this dialog box.
 

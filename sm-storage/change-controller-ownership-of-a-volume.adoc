@@ -5,6 +5,7 @@ keywords: change, controller, ownership, volume
 summary: "You can change the preferred controller ownership of a volume, so that I/O for host applications is directed through the new path."
 ---
 = Change controller ownership of a volume
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -21,8 +22,8 @@ You can change controller ownership for one or more volumes in a pool or volume 
 
 .Steps
 
-. Select *Storage* > *Volumes*.
-. Select any volume, and then select *More* > *Change ownership*.
+. Select *menu:Storage[Volumes]*.
+. Select any volume, and then select *menu:More[Change ownership]*.
 +
 The *Change Volume Ownership* dialog box appears. All volumes on the storage array appear in this dialog box.
 

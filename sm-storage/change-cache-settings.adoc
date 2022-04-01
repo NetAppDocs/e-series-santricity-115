@@ -5,6 +5,7 @@ keywords: change, cache, set, volume
 summary: "You can change read cache and write cache settings to impact the overall I/O performance of a volume."
 ---
 = Change cache settings for a volume
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -23,15 +24,17 @@ This action might occur when a new battery is charging, when a controller has be
 
 .Steps
 
-. Select *Storage* > *Volumes*.
-. Select any volume, and then select *More* > *Change cache settings*.
+. Select *menu:Storage[Volumes]*.
+. Select any volume, and then select *menu:More[Change cache settings]*.
 +
 The Change Cache Settings dialog box appears. All volumes on the storage array appear in this dialog box.
 
 . Select the *Basic* tab to change the settings for read caching and write caching.
 +
-Field Details
-+
+.Field Details
+[%collapsible]
+
+====
 [cols="2*",options="header"]
 |===
 | Cache setting| Description
@@ -44,17 +47,17 @@ Write Caching
 a|
 The write cache is a buffer that stores data from the host that has not yet been written to the drives. The data stays in the write cache until it is written to the drives. Write caching can increase I/O performance.
 
-[NOTE]
-====
-Cache is automatically flushed after the *Write caching* is disabled for a volume.
-====
+NOTE: Cache is automatically flushed after the *Write caching* is disabled for a volume.
 
 |===
+====
 
 . Select the *Advanced* tab to change the advanced settings for thick volumes. The advanced cache settings are available only for thick volumes.
 +
-Field Details
-+
+.Field Details
+[%collapsible]
+
+====
 [cols="2*",options="header"]
 |===
 | Cache setting| Description
@@ -69,10 +72,7 @@ Write Caching without Batteries
 a|
 The write caching without batteries setting lets write caching continue even when the batteries are missing, failed, discharged completely, or not fully charged. Choosing write caching without batteries is not typically recommended, because data might be lost if power is lost. Typically, write caching is turned off temporarily by the controller until the batteries are charged or a failed battery is replaced.
 
-[NOTE]
-====
-*Possible loss of data* -- If you select this option and do not have a universal power supply for protection, you could lose data. In addition, you could lose data if you do not have controller batteries and you enable the *Write caching without batteries* option.
-====
+NOTE: *Possible loss of data* -- If you select this option and do not have a universal power supply for protection, you could lose data. In addition, you could lose data if you do not have controller batteries and you enable the *Write caching without batteries* option.
 
 This setting is available only if you enabled write caching. This setting is not available for thin volumes.
 a|
@@ -83,5 +83,6 @@ Write caching with mirroring occurs when the data written to the cache memory of
 This setting is available only if you enabled write caching. This setting is not available for thin volumes.
 
 |===
+====
 
 . Click *Save* to change the cache settings.

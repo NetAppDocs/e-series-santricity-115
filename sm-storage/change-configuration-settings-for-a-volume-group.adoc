@@ -5,6 +5,7 @@ keywords: change, raid level, volume group
 summary: "You can change the RAID level for a volume group to accommodate the performance needs of the applications that are accessing the volume group. This operation changes a volume group’s RAID level without impacting data I/O."
 ---
 = Change RAID level for a volume group
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -60,7 +61,7 @@ RAID 3 can be assigned only to volume groups using the command line interface (C
 
 .Steps
 
-. Select *Storage* > *Pools & Volume Groups*.
+. Select *menu:Storage[Pools & Volume Groups]*.
 . Select the volume group that you want to edit, and then click *View/Edit Settings*.
 +
 The Volume Group Settingsdialog box appears.

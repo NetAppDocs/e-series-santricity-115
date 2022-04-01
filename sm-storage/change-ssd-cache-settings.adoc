@@ -5,6 +5,7 @@ keywords: change, ssd, cache, set
 summary: "You can edit the name of the SSD Cache and view its status, maximum and current capacity, Drive Security and Data Assurance status, and its associated volumes and drives."
 ---
 = Change SSD Cache settings
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -13,15 +14,17 @@ You can edit the name of the SSD Cache and view its status, maximum and current 
 
 .Steps
 
-. Select *Storage* > *Pools & Volume Groups*.
+. Select *menu:Storage[Pools & Volume Groups]*.
 . Select the SSD Cache that you want to edit, and then click *View/Edit Settings*.
 +
 The *SSD Cache Settings* dialog box appears.
 
 . Review or edit the SSD Cache settings as appropriate.
 +
-Field Details
-+
+.Field Details
+[%collapsible]
+
+====
 [cols="2*",options="header"]
 |===
 | Setting| Description
@@ -66,5 +69,6 @@ Associated objects
 a|
 Shows the volumes and drives associated with the SSD Cache.
 |===
+====
 
 . Click *Save*.

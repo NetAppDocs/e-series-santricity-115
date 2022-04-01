@@ -5,6 +5,7 @@ keywords: cancel, snapshot, image, rollback
 summary: "You can cancel an active rollback that is in progress (actively copying data), a pending rollback (in a pending queue awaiting resources to start), or a rollback that has been paused due to an error."
 ---
 = Cancel snapshot image rollback
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -22,9 +23,9 @@ If the snapshot group on which the snapshot image resides has one or more snapsh
 
 .Steps
 
-. Select *Storage* > *Snapshots*.
+. Select *menu:Storage[Snapshots]*.
 . Click the *Snapshot Images* tab.
-. Select the active or paused rollback, and then select *Rollback* > *Cancel*.
+. Select the active or paused rollback, and then select *menu:Rollback[Cancel]*.
 +
 The Confirm Cancel Rollback dialog box appears.
 

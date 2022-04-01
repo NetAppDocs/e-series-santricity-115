@@ -5,6 +5,7 @@ keywords: add, workload
 summary: "You can add one or more volumes to an existing or new workload for volumes that are not currently associated with a workload."
 ---
 = Add to workload
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -17,7 +18,7 @@ Volumes are not associated with a workload if they have been created using the c
 
 .Steps
 
-. Select *Storage* > *Volumes*.
+. Select *menu:Storage[Volumes]*.
 . Select the *Applications & Workloads* tab.
 +
 The Applications & Workloads view appears.

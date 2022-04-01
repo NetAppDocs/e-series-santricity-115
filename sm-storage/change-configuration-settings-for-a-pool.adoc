@@ -5,6 +5,7 @@ keywords: change, configuration, set, pool
 summary: "You can edit the settings for a pool if you want to change its name, edit the capacity alerts settings, its modification priorities, or preservation capacity."
 ---
 = Change configuration settings for a pool
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -13,15 +14,17 @@ You can edit the settings for a pool if you want to change its name, edit the ca
 
 .Steps
 
-. Select *Storage* > *Pools & Volume Groups*.
+. Select *menu:Storage[Pools & Volume Groups]*.
 . Select the pool that you want to edit, and then click *View/Edit Settings*.
 +
 The *Pool Settings* dialog box appears.
 
 . Select the *Settings* tab, and then edit the pool settings as appropriate.
 +
-Field Details
-+
+.Field Details
+[%collapsible]
+
+====
 [cols="2*",options="header"]
 |===
 | Setting| Description
@@ -66,5 +69,6 @@ Keep the following information in mind about preservation capacity.
 
 +
 |===
+====
 
 . Click *Save*.
