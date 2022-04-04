@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/create-asynchronous-mirrored-volume.html
 sidebar: sidebar
-keywords: 
-summary: 'You mirror a volume asynchronously to maintain data at the remote storage array to be a point-in-time consistent copy of data at the local storage array. You do this by creating a mirror consistency group to establish the mirroring relationship between the two storage arrays, and then selecting the primary volume and secondary volume that you want to use in the mirror.'
+keywords: create, asynchronous, mirrored, volume
+summary: "You mirror a volume asynchronously to maintain data at the remote storage array to be a point-in-time consistent copy of data at the local storage array. You do this by creating a mirror consistency group to establish the mirroring relationship between the two storage arrays, and then selecting the primary volume and secondary volume that you want to use in the mirror."
 ---
 = Create asynchronous mirrored volume
 :experimental:
@@ -12,7 +12,7 @@ summary: 'You mirror a volume asynchronously to maintain data at the remote stor
 [.lead]
 You mirror a volume asynchronously to maintain data at the remote storage array to be a point-in-time consistent copy of data at the local storage array. You do this by creating a mirror consistency group to establish the mirroring relationship between the two storage arrays, and then selecting the primary volume and secondary volume that you want to use in the mirror.
 
-== Before you begin
+.Before you begin
 
 * The following conditions must be set up:
  ** The Web Services Proxy service is running.
@@ -24,7 +24,7 @@ You mirror a volume asynchronously to maintain data at the remote storage array 
 * You must know the password for the local and remote storage arrays.
 * Your local and remote storage arrays must be connected through a Fibre Channel fabric or iSCSI interface.
 
-== About this task
+.About this task
 
 The process to mirror a volume asynchronously is a multi-step procedure:
 
@@ -39,15 +39,15 @@ A volume can participate in only one mirror relationship.
 [.lead]
 You create a mirror consistency group or select an existing one to establish the mirroring relationship between the local storage array and the remote storage array.
 
-=== About this task
+.About this task
 
 The number of mirror consistency group relationships and mirrored pair relationships that you can create depends on the hardware in your storage array.
 
-=== Steps
+.Steps
 
 . Do one of the following actions to access the asynchronous mirroring sequence:
- ** Select *Storage* > *Asynchronous Mirroring* > *Create Mirrored pair*.
- ** Select *Storage* > *Volumes* > *Copy Services* > *Mirror a volume asynchronously*.
+ ** Select menu:Storage[Asynchronous Mirroring > Create Mirrored pair].
+ ** Select menu:Storage[Volumes > Copy Services > Mirror a volume asynchronously].
 . Either select an existing mirror consistency group or create a new one.
 +
 To create new mirror consistency group, do the following:
@@ -79,7 +79,7 @@ If System Manager successfully creates the mirror consistency group on the local
 [.lead]
 You must select the primary volume that you want to use in the mirror relationship and allocate its reserved capacity. Any volumes added to the mirror consistency group on the local storage array will hold the primary role in the mirror relationship.
 
-=== Steps
+.Steps
 
 . Select an existing volume that you want to use as the primary volume in the mirror, and then click *Next* to allocate the reserved capacity.
 . Allocate the reserved capacity for the primary volume you selected. Do one of the following actions:
@@ -97,11 +97,11 @@ You must select the primary volume that you want to use in the mirror relationsh
 [.lead]
 You must select the secondary volume that you want to use in the mirror relationship and allocate its reserved capacity. Any volumes added to the mirror consistency group on the remote storage array will hold the secondary role in the mirror relationship.
 
-=== About this task
+.About this task
 
 When you select a secondary volume on the remote storage array, the system displays a list of all the eligible volumes for that mirrored pair. Any volumes that are not eligible to be used do not display in that list.
 
-=== Steps
+.Steps
 
 . Select an existing volume that you want to use as the secondary volume in the mirrored pair, and then click *Next* to allocate the reserved capacity.
 . Allocate the reserved capacity for the secondary volume you selected. Do one of the following actions:
@@ -114,7 +114,7 @@ When you select a secondary volume on the remote storage array, the system displ
    **** A large percentage of data blocks will change on the primary volume due to heavy I/O activity. Use historical performance data or other operating system utilities to help you determine typical I/O activity to the primary volume.
 . Select *Finish* to complete the asynchronous mirroring sequence.
 
-=== Results
+.Results
 
 System Manager performs the following actions:
 
