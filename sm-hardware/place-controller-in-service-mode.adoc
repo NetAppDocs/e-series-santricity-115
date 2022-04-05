@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/place-controller-in-service-mode.html
 sidebar: sidebar
-keywords:
-summary: 'If you are instructed to do so, you can place a controller in service mode.'
+keywords: place, controller, service, mode
+summary: "If you are instructed to do so, you can place a controller in service mode."
 ---
 = Place controller in service mode
 :icons: font

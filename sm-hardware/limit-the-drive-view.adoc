@@ -55,7 +55,7 @@ Logical locations might include:
  ** Hot spare
  ** SSD Cache
  ** Unassigned
-
++
 When you select an option from the field, the drives that do not match your filter criteria are grayed out in the graphic view.
 
 . Optionally, you can select *Turn on locator lights* at the far right of the filter fields to turn on the locator lights for the displayed drives.

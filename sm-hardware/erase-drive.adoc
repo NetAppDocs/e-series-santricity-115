@@ -56,6 +56,6 @@ The Secure Erase option only appears if you select an unassigned, secure-enabled
 . In the Secure Erase Drive dialog box, read the important information about data loss.
 . Confirm the operation, and then click *Erase*.
 
-.Results
+.Result
 
 The drive is now available for use in another volume group or disk pool, or in another storage array.

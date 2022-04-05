@@ -55,6 +55,6 @@ If the drive is *not* secure-enabled, the Confirm Assign Hot Spare Drive dialog 
 +
 The drive is displayed in pink on the Hardware page, which indicates it is now a hot spare.
 
-.Results
+.Result
 
 If a drive within a RAID 1, RAID 5, or RAID 6 volume group fails, the controller automatically uses redundancy data to reconstruct the data from the failed drive to the hot spare.
