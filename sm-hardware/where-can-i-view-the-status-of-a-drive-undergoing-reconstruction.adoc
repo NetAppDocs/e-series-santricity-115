@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view drive reconstruction status from the Operations in Progress dashboard.'
+keywords: status, drive, undergoing, reconstruction
+summary: "You can view drive reconstruction status from the Operations in Progress dashboard."
 ---
 = Where can I view the status of a drive undergoing reconstruction?
 :icons: font
@@ -11,6 +11,6 @@ summary: 'You can view drive reconstruction status from the Operations in Progre
 [.lead]
 You can view drive reconstruction status from the Operations in Progress dashboard.
 
-From the *Home* page, click the *View Operations in Progress* link in the upper right.
+From the *Home* page, click the View Operations in Progress link in the upper right.
 
 Depending on the drive, the full reconstruction might take a considerable amount of time. If a volume ownership has changed, a full reconstruction might take place instead of the rapid reconstruction.
