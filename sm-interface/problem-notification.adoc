@@ -1,8 +1,8 @@
 ---
 permalink: sm-interface/problem-notification.html
 sidebar: sidebar
-keywords: error
-summary: 'System Manager uses icons and several other methods to notify you that problems exist with the storage array.'
+keywords: problem, notification
+summary: "System Manager uses icons and several other methods to notify you that problems exist with the storage array."
 ---
 = Problem notification
 :icons: font
@@ -14,7 +14,7 @@ System Manager uses icons and several other methods to notify you that problems 
 == Icons
 
 System Manager uses these icons to indicate the status of the storage array and its components.
-
+[options="header"]
 |===
 | Icon| Description
 a|
