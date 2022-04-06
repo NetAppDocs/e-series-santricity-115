@@ -1,7 +1,7 @@
 ---
 permalink: sm-interface/what-are-the-keyboard-shortcuts.html
 sidebar: sidebar
-keywords: 
+keywords: keyboard, shortcuts
 summary: 'You can navigate around System Manager using the keyboard alone.'
 ---
 = What are the keyboard shortcuts?
@@ -12,7 +12,7 @@ summary: 'You can navigate around System Manager using the keyboard alone.'
 You can navigate around System Manager using the keyboard alone.
 
 == Overall navigation
-
+[options="header"]
 |===
 | Action| Keyboard shortcut
 a|
@@ -46,7 +46,7 @@ Enter
 |===
 
 == Table navigation
-
+[options="header"]
 |===
 | Action| Keyboard shortcut
 a|
@@ -64,7 +64,7 @@ Tab to select a column heading, then press Enter
 |===
 
 == Calendar navigation
-
+[options="header"]
 |===
 | Action| Keyboard shortcut
 a|
