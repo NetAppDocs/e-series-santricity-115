@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/overview-of-snapshot-storage.html
 sidebar: sidebar
-keywords: 
-summary: 'The Snapshots feature uses copy-on-write technology to store snapshot images and use allocated reserved capacity.'
+keywords: overview, snapshot, storage
+summary: "The Snapshots feature uses copy-on-write technology to store snapshot images and use allocated reserved capacity."
 ---
 = Overview of snapshot storage
 :icons: font
@@ -19,7 +19,7 @@ As snapshots are created, the Snapshots feature stores image data as follows:
 image::../media/sam1130-dwg-snapshots-cow-overview.gif[]
 +
 |===
-    a|
+a|
 1   Base volume (physical disk capacity)
 a|
 2   Snapshots (logical disk capacity)
