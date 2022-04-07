@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/considerations-for-setting-up-asynchronous-mirroring.html
 sidebar: sidebar
-keywords: 
-summary: 'To ensure a successful configuration and set up, keep in mind some key considerations as part of your planning.'
+keywords: considerations, setting up, asynchronous, mirror
+summary: "To ensure a successful configuration and set up, keep in mind some key considerations as part of your planning."
 ---
 = Considerations for setting up asynchronous mirroring
 :experimental:
