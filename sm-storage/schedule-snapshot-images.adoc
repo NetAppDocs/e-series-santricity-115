@@ -56,7 +56,7 @@ In the upper right of the dialog box, click *Show more options* to display all o
 [cols="2*",options="header"]
 |===
 | Field| Description
-a|
+2+a|
 *Basic settings*
 a|
 Select days
@@ -70,7 +70,7 @@ a|
 Time zone
 a|
 From the drop-down list, select your array's time zone.
-a|
+2+a|
 *Advanced settings*
 a|
 Day / month
@@ -133,13 +133,13 @@ The Edit Settings dialog box appears.
 [cols="2*",options="header"]
 |===
 | Setting| Description
-a|
+2+a|
 *Snapshot image limit*
 a|
 Enable automatic deletion of snapshot images when...
 a|
 Keep the check box selected if you want snapshot images automatically deleted after the specified limit; use the spinner box to change the limit. If you clear this check box, snapshot image creation stops after 32 images.
-a|
+2+a|
 *Reserved capacity settings*
 a|
 Alert me when...
