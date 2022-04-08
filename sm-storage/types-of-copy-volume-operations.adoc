@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/types-of-copy-volume-operations.html
 sidebar: sidebar
-keywords: 
-summary: 'You can perform either an offline Copy Volume operation or an online Copy Volume operation. An offline operation reads data from a source volume and copies it to a target volume. An online operation uses a snapshot volume as the source and copies its data to a target volume.'
+keywords: types, copy, volume, operations
+summary: "You can perform either an offline Copy Volume operation or an online Copy Volume operation. An offline operation reads data from a source volume and copies it to a target volume. An online operation uses a snapshot volume as the source and copies its data to a target volume."
 ---
 = Types of Copy Volume operations
 :icons: font
@@ -20,13 +20,11 @@ The offline and online Copy Volume operations are described below.
 The offline Copy Volume relationship is between a source volume and a target volume. An offline copy reads data from the source volume and copies it to a target volume, while suspending all updates to the source volume with the copy in progress. All updates to the source volume are suspended to prevent chronological inconsistencies from being created on the target volume.
 
 |===
-| What you need to know about offline copy operations
+2+a| What you need to know about offline copy operations
 
 a|
 Read and write requests
-
 a|
-
 * Source volumes that are participating in an offline copy are available for read-only I/O activity while a Copy Volume operation has a status of In Progress or Pending.
 * Write requests are allowed after the offline copy has completed.
 * To prevent write-protected error messages, do not access a source volume that is participating in a Copy Volume operation with a status of In Progress.
@@ -51,7 +49,7 @@ When you initiate a Copy Volume operation for a source volume, System Manager cr
 During an online copy operation, a performance impact is experienced due to the copy-on-write procedure. After the online copy completes, the base volume performance is restored.
 
 |===
-| What you need to know about online copy operations
+2+a| What you need to know about online copy operations
 
 a|
 What kind of volumes can be used?
