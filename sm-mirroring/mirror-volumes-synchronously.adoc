@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/mirror-volumes-synchronously.html
 sidebar: sidebar
-keywords: 
-summary: 'With the Synchronous Mirroring feature, a volume has a physical copy, which facilitates data availability and minimizes downtime. Every synchronous mirroring relationship involves one volume in a primary role and a second volume \(on a different storage array\) in a secondary role.'
+keywords: mirror, volumes, synchronously
+summary: "With the Synchronous Mirroring feature, a volume has a physical copy, which facilitates data availability and minimizes downtime. Every synchronous mirroring relationship involves one volume in a primary role and a second volume (on a different storage array) in a secondary role."
 ---
 = Mirror volumes synchronously
 :icons: font

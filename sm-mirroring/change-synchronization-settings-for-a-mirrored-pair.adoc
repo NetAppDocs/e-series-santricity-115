@@ -45,6 +45,6 @@ You can resynchronize the mirrored pairs on the remote storage array either manu
 
  ** *Manual* (the recommended option) -- Select this option to require synchronization to be manually resumed after communication is restored to a mirrored pair. This option provides the best opportunity for recovering data.
 
- ** *Automatic*-- Select this option to start resynchronization automatically after communication is restored to a mirrored pair.
+ ** *Automatic* -- Select this option to start resynchronization automatically after communication is restored to a mirrored pair.
 
 . Select *Save*.
