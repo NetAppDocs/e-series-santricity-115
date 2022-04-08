@@ -29,9 +29,9 @@ The host has immediate access to the new rolled-back volumes, but the existing m
 
 The process to start rollback of a snapshot image of a snapshot consistency group is a multi-step procedure:
 
-* <<TASK_0CF16C7A112C4B2FA44419B82272887D,Step 1: Select members>>
-* <<TASK_3CC5A20F26E44B9DBDDBCF422EDBBB4C,Step 2: Review capacity>>
-* <<TASK_2C49B5B3933341D1BA737F00EBBC1698,Step 3: Edit priority>>
+* <<Step 1: Select members>>
+* <<Step 2: Review capacity>>
+* <<Step 3: Edit priority>>
 
 == Step 1: Select members
 
@@ -48,8 +48,8 @@ The *Start Rollback* dialog box appears.
 
 . Select the member volume or volumes.
 . Click *Next*, and do one of the following:
- ** If any of the selected member volumes are associated with more than one reserved capacity object that stores snapshot images, the Review Capacity dialog box appears. Go to <<TASK_3CC5A20F26E44B9DBDDBCF422EDBBB4C,Step 2: Review capacity>>.
- ** If none of the selected member volumes are associated with more than one reserved capacity object that stores snapshot images, the Edit Priority dialog box appears. Go to <<TASK_2C49B5B3933341D1BA737F00EBBC1698,Step 3: Edit priority>>.
+ ** If any of the selected member volumes are associated with more than one reserved capacity object that stores snapshot images, the Review Capacity dialog box appears. Go to <<Step 2: Review capacity>>.
+ ** If none of the selected member volumes are associated with more than one reserved capacity object that stores snapshot images, the Edit Priority dialog box appears. Go to <<Step 3: Edit priority>>.
 
 == Step 2: Review capacity
 
@@ -66,7 +66,7 @@ The *Increase Reserved Capacity* dialog box appears.
 +
 If free capacity does not exist on the pool or volume group that contains the storage object you selected and the storage array has Unassigned Capacity, you can add capacity. You can create a new pool or volume group and retry this operation using the new free capacity on that pool or volume group.
 
-. Click *Next*, and go to <<TASK_2C49B5B3933341D1BA737F00EBBC1698,Step 3: Edit priority>>.
+. Click *Next*, and go to <<Step 3: Edit priority>>.
 +
 The Edit Priority dialog box appears.
 
