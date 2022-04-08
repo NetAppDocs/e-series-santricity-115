@@ -36,8 +36,8 @@ Accept the default settings for the remote side of the mirrored pair by selectin
 +
 Define your own parameters for the secondary volume.
 
-  ... Click Next to select the secondary volume.
-  ... Select an existing volume that you want to use as the secondary volume and then click Next to allocate the reserved capacity.
+  ... Click *Next* to select the secondary volume.
+  ... Select an existing volume that you want to use as the secondary volume and then click *Next* to allocate the reserved capacity.
   ... Allocate the reserved capacity. Do one of the following:
    **** Accept the default settings.
 +
