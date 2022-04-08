@@ -18,10 +18,10 @@ Most application types default to a user-defined volume configuration. Some appl
 
 The process to create a volume is a multi-step procedure:
 
-* <<TASK_5DA5CB705B5A4824A28DCA437E0E8DAE,Step 1: Select host>>
-* <<TASK_A131F6CD90CF4A9BB87ABAFFCC2114E3,Step 2: Select workload>>
-* <<TASK_3E8CB8F70F7245E1882DD385E5BD9B94,Step 3: Add or edit volumes>>
-* <<TASK_9BF7347F59E047B1B2BF8E9F110AA117,Step 4: Review configuration>>
+* <<Step 1: Select host>>
+* <<Step 2: Select workload>>
+* <<Step 3: Add or edit volumes>>
+* <<Step 4: Review configuration>>
 
 [NOTE]
 ====
@@ -61,7 +61,7 @@ Assigning a volume to a host will fail if you try to assign a volume to a host c
 The *Create Volumes* dialog box appears.
 
 . From the drop-down list, select a specific host or host cluster to which you want to assign volumes, or choose to assign the host or host cluster at a later time.
-. To continue the volume creation sequence for the selected host or host cluster, click *Next*, and go to <<TASK_A131F6CD90CF4A9BB87ABAFFCC2114E3,Step 2: Select workload>>.
+. To continue the volume creation sequence for the selected host or host cluster, click *Next*, and go to <<Step 2: Select workload>>.
 +
 The Select Workload dialog box appears.
 
@@ -88,7 +88,7 @@ Select one of the "Other" entries if the application you intend to use on this s
 
   *** Enter a name for the workload you want to create.
 . Click *Next*.
-. If your workload is associated with a supported application type, enter the information requested; otherwise, go to <<TASK_3E8CB8F70F7245E1882DD385E5BD9B94,Step 3: Add or edit volumes>>.
+. If your workload is associated with a supported application type, enter the information requested; otherwise, go to <<Step 3: Add or edit volumes>>.
 
 == Step 3: Add or edit volumes
 
@@ -240,10 +240,9 @@ a|
 *Yes* appears next to "DA" only if the drives in the pool or volume group support Data Assurance (DA).
 
 DA increases data integrity across the entire storage system. DA enables the storage array to check for errors that might occur when data is moved between the hosts and the drives. Using DA for the new volume ensures that any errors are detected.
-+
 |===
 ====
-. To continue the volume creation sequence for the selected application, click *Next*, and go to <<TASK_9BF7347F59E047B1B2BF8E9F110AA117,Step 4: Review configuration>>.
+. To continue the volume creation sequence for the selected application, click *Next*, and go to <<Step 4: Review configuration>>.
 
 == Step 4: Review configuration
 

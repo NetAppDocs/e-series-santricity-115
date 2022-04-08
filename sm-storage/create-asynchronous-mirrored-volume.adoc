@@ -28,9 +28,9 @@ You mirror a volume asynchronously to maintain data at the remote storage array 
 
 The process to mirror a volume asynchronously is a multi-step procedure:
 
-* <<TASK_3194C144AF9B4AED89E26A4B11BE5545,Step 1: Create a mirror consistency group or select an existing one>>
-* <<TASK_EE4B1B5B46D34996A691233EE97D1AEA,Step 2: Select the primary volume>>
-* <<TASK_45BF024845AE44BB88E3BA2D2FBCF11D,Step 3: Select the secondary volume>>
+* <<Step 1: Create a mirror consistency group or select an existing one>>
+* <<Step 2: Select the primary volume>>
+* <<Step 3: Select the secondary volume>>
 
 A volume can participate in only one mirror relationship.
 
@@ -72,7 +72,7 @@ System Manager creates the mirror consistency group on the local storage array f
 If System Manager successfully creates the mirror consistency group on the local storage array, but fails to create it on the remote storage array, it automatically deletes the mirror consistency group from the local storage array. If an error occurs while System Manager is attempting to delete the mirror consistency group, you must manually delete it.
 ====
 
-. Select *Next* and go to <<TASK_EE4B1B5B46D34996A691233EE97D1AEA,Step 2: Select the primary volume>>.
+. Select *Next* and go to <<Step 2: Select the primary volume>>.
 
 == Step 2: Select the primary volume
 
@@ -90,7 +90,7 @@ You must select the primary volume that you want to use in the mirror relationsh
   *** In general, choose a larger capacity for reserved capacity if one or both of these conditions exist:
    **** You intend to keep the mirrored pair for a long period of time.
    **** A large percentage of data blocks will change on the primary volume due to heavy I/O activity. Use historical performance data or other operating system utilities to help you determine typical I/O activity to the primary volume.
-. Select *Next* and go to <<TASK_45BF024845AE44BB88E3BA2D2FBCF11D,Step 3: Select the secondary volume>>.
+. Select *Next* and go to <<Step 3: Select the secondary volume>>.
 
 == Step 3: Select the secondary volume
 

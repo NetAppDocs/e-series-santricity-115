@@ -24,9 +24,9 @@ image::../media/sam1130-dwg-snapshots-rollback-overview.gif[]
 
 |===
 a|
-1   Base volume.
+Base volume.
 a|
-2   Snapshot objects in a group.
+Snapshot objects in a group.
 a|
-3   Snapshot group reserved capacity.
+Snapshot group reserved capacity.
 |===

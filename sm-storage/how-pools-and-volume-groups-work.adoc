@@ -22,13 +22,13 @@ image::../media/sam1130-dwg-volumes-drive-structure-pools-and-volume-groups.gif[
 
 |===
 a|
-1   Host LUNs
+Host LUNs
 a|
-2   Volumes
+Volumes
 a|
-3   Volume groups or pools
+Volume groups or pools
 a|
-4   HDD or SSD drives
+HDD or SSD drives
 |===
 When a storage system is deployed, the first step is to present the available drive capacity to the various hosts by:
 

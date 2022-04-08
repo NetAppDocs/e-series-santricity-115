@@ -30,9 +30,9 @@ image::../media/sam1130-dwg-snapshots-consistency-groups-overview.gif[]
 
 |===
 a|
-1   Reserved capacity.
+Reserved capacity.
 a|
-2   Member volume.
+Member volume.
 a|
-3   Consistency group snapshot images.
+Consistency group snapshot images.
 |===

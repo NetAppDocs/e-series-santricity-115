@@ -18,9 +18,9 @@ The snapshot consistency group creation sequence lets you select member volumes 
 
 The process to create a snapshot consistency group is a multi-step procedure:
 
-* <<TASK_45F94DC3EAF54E10ABCA1DF86CC0E3E3,Step 1: Add members>>
-* <<TASK_2E2BAF3856AF42BBA1A3D9BBC41BA775,Step 2: Reserve capacity>>
-* <<TASK_C69BFBD351214598922DB15EA6D3E350,Step 3: Edit settings>>
+* <<Step 1: Add members>>
+* <<Step 2: Reserve capacity>>
+* <<Step 3: Edit settings>>
 
 == Step 1: Add members
 
@@ -40,7 +40,7 @@ The member volumes must be Optimal.
 The *Create Snapshot Consistency Group* dialog box appears.
 
 . Select the volume(s) to be added as member volumes to the snapshot consistency group.
-. Click *Next*, and go to <<TASK_2E2BAF3856AF42BBA1A3D9BBC41BA775,Step 2: Reserve capacity>>.
+. Click *Next*, and go to <<Step 2: Reserve capacity>>.
 
 == Step 2: Reserve capacity
 
@@ -65,7 +65,7 @@ Allocate the reserved capacity using the following guidelines.
   *** The default setting for reserved capacity is 40% of the capacity of the base volume. Usually this capacity is sufficient.
   *** The capacity needed varies, depending on the frequency and size of I/O writes to the volumes and the quantity and duration of snapshot image collection.
 . (Optional) If you change the default reserved capacity setting, click *Refresh Candidates* to refresh the candidate list for the reserved capacity you specified.
-. Click *Next*, and go to <<TASK_C69BFBD351214598922DB15EA6D3E350,Step 3: Edit settings>>.
+. Click *Next*, and go to <<Step 3: Edit settings>>.
 
 == Step 3: Edit settings
 

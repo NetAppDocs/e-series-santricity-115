@@ -65,7 +65,6 @@ a|
 Enable security?
 a|
 Provides the option for enabling the Drive Security feature with secure-capable drives. If you want to create a secure-enabled SSD Cache, select the Enable Security check box.
-
 [NOTE]
 ====
 Once enabled, security cannot be disabled. You can enable security on the SSD Cache only when you are creating it, not later.

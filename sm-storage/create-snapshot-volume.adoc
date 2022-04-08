@@ -21,10 +21,10 @@ The snapshot volume creation sequence lets you create a snapshot volume from a s
 
 The process to create a snapshot volume is a multi-step procedure:
 
-* <<TASK_010F7165D38B4243A1CF3BC7EDA293C7,Step 1: Review members>>
-* <<TASK_4BB7F88134124F04A11E960D53A214B3,Step 2: Assign to host>>
-* <<TASK_DCAB2E61DED74615A28517A0E9075EEE,Step 3: Reserve capacity>>
-* <<TASK_726F3A79B5C44B4B89390A5AB9F89E5B,Step 4: Edit settings>>
+* <<Step 1: Review members>>
+* <<Step 2: Assign to host>>
+* <<Step 3: Reserve capacity>>
+* <<Step 4: Edit settings>>
 
 == Step 1: Review members
 
@@ -44,7 +44,7 @@ If the selection was for a snapshot consistency group snapshot image, the *Revie
 +
 On the *Review Members* dialog box, review the list of volumes that are selected for conversion to snapshot volumes, and then click *Next*.
 
-. Go to <<TASK_4BB7F88134124F04A11E960D53A214B3,Step 2: Assign to host>>.
+. Go to <<Step 2: Assign to host>>.
 
 == Step 2: Assign to host
 
@@ -78,15 +78,15 @@ Assigning a volume to a host fails if you try to assign a volume to a host clust
  ** *Read/write* -- This option provides the host with read/write access to the snapshot volume and requires reserved capacity.
  ** *Read only* -- This option provides the host with read-only access to the snapshot volume and does not require reserved capacity.
 . Click *Next*, and do one of the following:
- ** If your snapshot volume is read/write, the *Review Capacity* dialog box appears. Go to <<TASK_DCAB2E61DED74615A28517A0E9075EEE,Step 3: Reserve capacity>>.
- ** If your snapshot volume is read only, the *Edit Priority* dialog box appears. Go to <<TASK_726F3A79B5C44B4B89390A5AB9F89E5B,Step 4: Edit settings>>.
+ ** If your snapshot volume is read/write, the *Review Capacity* dialog box appears. Go to <<Step 3: Reserve capacity>>.
+ ** If your snapshot volume is read only, the *Edit Priority* dialog box appears. Go to <<Step 4: Edit settings>>.
 
 == Step 3: Reserve capacity
 
 [.lead]
 You must associate reserved capacity to a read/write snapshot volume. System Manager suggests the volumes and capacity based on the properties of the base volume or snapshot consistency group. You can accept the recommended reserved capacity configuration or customize the allocated storage.
 
-=== About this task
+.About this task
 
 You can increase or decrease the reserved capacity for the snapshot volume as needed. If you find that the snapshot reserved capacity is larger than you need, you can reduce its size to free up space that is needed by other logical volumes.
 
@@ -112,7 +112,7 @@ Allocate the reserved capacity using the following guidelines.
   *** The capacity needed varies, depending on the frequency and size of I/O writes to the volumes and the quantity and duration of snapshot image collection.
 
 . (Optional) If you are creating the snapshot volume for a snapshot consistency group, the option to *Change candidate* appears in the Reserved Capacity Candidates table. Click *Change candidate* to select an alternate reserved capacity candidate.
-. Click *Next*, and go to <<TASK_726F3A79B5C44B4B89390A5AB9F89E5B,Step 4: Edit settings>>.
+. Click *Next*, and go to <<Step 4: Edit settings>>.
 
 == Step 4: Edit settings
 

@@ -26,9 +26,9 @@ You mirror a volume synchronously to replicate data in real-time between storage
 
 The process to mirror a volume synchronously is a multi-step procedure:
 
-* <<TASK_EE4B1B5B46D34996A691233EE97D1AEA,Step 1: Select the primary volume>>
-* <<TASK_45BF024845AE44BB88E3BA2D2FBCF11D,Step 2: Select the secondary volume>>
-* <<TASK_7395D15E09244A709DCC0C5A74ECC6F9,Step 3: Select synchronization settings>>
+* <<Step 1: Select the primary volume>>
+* <<Step 2: Select the secondary volume>>
+* <<Step 3: Select synchronization settings>>
 
 A volume can participate in only one mirror relationship.
 
@@ -55,7 +55,7 @@ The *Create Synchronous Mirrored Pair* dialog appears.
 If a volume was selected in the Volumes tile and it is eligible to be mirrored, it will be selected by default.
 ====
 
-. Select *Next* and go to <<TASK_45BF024845AE44BB88E3BA2D2FBCF11D,Step 2: Select the secondary volume>>.
+. Select *Next* and go to <<Step 2: Select the secondary volume>>.
 
 == Step 2: Select the secondary volume
 
@@ -93,7 +93,7 @@ If your remote storage array is password protected, the system prompts for a pas
 If a secondary volume is chosen with a capacity that is larger than the primary volume, the usable capacity is restricted to the size of the primary volume.
 ====
 
-. Click *Next* and go to <<TASK_7395D15E09244A709DCC0C5A74ECC6F9,Step 3: Select synchronization settings>>.
+. Click *Next* and go to <<Step 3: Select synchronization settings>>.
 
 == Step 3: Select synchronization settings
 
@@ -108,8 +108,10 @@ The synchronization priority determines how much of the system resources are use
 +
 The priority set on this dialog applies to both the primary volume and the secondary volume. You can modify the rate on the primary volume at a later time by selecting menu:Storage[Synchronous Mirroring > More > Edit Settings].
 +
-More about synchronization rates
-+
+.More about synchronization rates
+[%collapsible]
+
+====
 There are five synchronization priority rates:
 
  ** Lowest
@@ -118,10 +120,11 @@ There are five synchronization priority rates:
  ** High
  ** Highest
 If the synchronization priority is set to the lowest rate, I/O activity is prioritized, and the resynchronization operation takes longer. If the synchronization priority is set to the highest rate, the resynchronization operation is prioritized, but I/O activity for the storage array might be affected.
+====
 
 . Choose whether you want to resynchronize the mirrored pairs on the remote storage array either manually or automatically.
- ** *Manual*(the recommended option) -- Select this option to require synchronization to be manually resumed after communication is restored to a mirrored pair. This option provides the best opportunity for recovering data.
- ** *Automatic*-- Select this option to start resynchronization automatically after communication is restored to a mirrored pair.
+ ** *Manual* (the recommended option) -- Select this option to require synchronization to be manually resumed after communication is restored to a mirrored pair. This option provides the best opportunity for recovering data.
+ ** *Automatic* -- Select this option to start resynchronization automatically after communication is restored to a mirrored pair.
 To manually resume synchronization go to menu:Storage[Synchronous Mirroring], highlight the mirrored pair in the table, and select *Resume* under *More*.
 . Click *Finish* to complete the synchronous mirroring sequence.
 
