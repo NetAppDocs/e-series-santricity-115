@@ -101,6 +101,6 @@ If you are adding drives to a pool or volume group, a confirmation dialog box ap
  ** Data Assurance capability
 To continue, click *Yes*; otherwise click *Cancel*.
 
-== Results
+.Results
 
 After you add the unassigned drives to a pool or volume group, the data in each volume of the pool or volume group is redistributed to include the additional drives.

@@ -49,7 +49,7 @@ Disabling the media scan check box suspends all media scan settings.
 . Specify the number of days over which you want the media scan to run.
 . Select the *Media Scan* check box for each volume you want to perform a media scan on.
 +
-System Manager enables the Redundancy Check option for each volume on which you choose to run a media scan. If there are individual volumes for which you do not want to perform a redundancy check, deselect the **Redundancy Check**check box.
+System Manager enables the Redundancy Check option for each volume on which you choose to run a media scan. If there are individual volumes for which you do not want to perform a redundancy check, deselect the *Redundancy Check* check box.
 
 . Click *Save*.
 

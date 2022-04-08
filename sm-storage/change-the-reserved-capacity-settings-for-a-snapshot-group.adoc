@@ -33,7 +33,7 @@ The *Snapshot Group Settings* dialog box appears.
 [cols="2*",options="header"]
 |===
 | Setting| Description
-a|
+2+a|
 *Snapshot group settings*
 a|
 Name
@@ -51,7 +51,7 @@ a|
 Snapshot schedule
 a|
 If Yes, a schedule is set for automatically creating snapshots.
-a|
+2+a|
 *Reserved capacity settings*
 a|
 Alert me when...
@@ -67,7 +67,7 @@ You can choose one of the following policies:
  ** *Purge oldest snapshot image* -- System Manager automatically purges the oldest snapshot image in the snapshot group, which releases the snapshot image reserved capacity for reuse within the group.
  ** *Reject writes to base volume* -- When the reserved capacity reaches its maximum defined percentage, System Manager rejects any I/O write request to the base volume that triggered the reserved capacity access.
 
-a|
+2+a|
 *Associated objects*
 a|
 Base volume

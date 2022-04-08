@@ -12,7 +12,7 @@ summary: "You can change the host cluster name, or add or remove hosts in a host
 [.lead]
 You can change the host cluster name, or add or remove hosts in a host cluster.
 
-== Steps
+.Steps
 
 . Select menu:Storage[Hosts].
 . Select the host cluster you want to edit, and then click *View/Edit Settings*.
