@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html
 sidebar: sidebar
-keywords: 
-summary: 'Before creating a mirrored pair, make sure your environment meets the following guidelines.'
+keywords: synchronous, mirroring, create, mirrored path
+summary: "Before creating a mirrored pair, make sure your environment meets the following guidelines."
 ---
 = Synchronous mirroring - What do I need to know before creating a mirrored pair?
 :icons: font

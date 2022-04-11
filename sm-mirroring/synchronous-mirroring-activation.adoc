@@ -1,10 +1,11 @@
 ---
 permalink: sm-mirroring/synchronous-mirroring-activation.html
 sidebar: sidebar
-keywords: 
-summary: 'The Synchronous Mirroring feature is automatically activated when the first synchronous mirrored pair is created on a storage array.'
+keywords: synchronous, mirror, activation
+summary: "The Synchronous Mirroring feature is automatically activated when the first synchronous mirrored pair is created on a storage array."
 ---
 = Synchronous mirroring activation
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -23,4 +24,4 @@ The capacity of each volume is 128 MiB. However, if the volumes are placed in a 
 
 With the Synchronous Mirroring feature, there are limits to the number of volumes that are supported on a given storage array. Before you activate Synchronous Mirroring, make sure that the number of configured volumes on your storage array is less than the supported limit. When Synchronous Mirroring is active, the two reserved capacity volumes that are created count against the volume limit.
 
-If you need to deactivate Synchronous Mirroring at a later time, go to**Storage** > *Synchronous Mirroring* > *Uncommon Tasks* > *Deactivate*.
+If you need to deactivate Synchronous Mirroring at a later time, go to menu:Storage[Synchronous Mirroring > Uncommon Tasks > Deactivate].
