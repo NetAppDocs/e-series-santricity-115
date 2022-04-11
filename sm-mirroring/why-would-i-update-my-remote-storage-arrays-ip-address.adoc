@@ -17,4 +17,4 @@ When establishing an asynchronous mirroring relationship with an iSCSI connectio
 
 The storage array with the changed IP address sends a message to each remote storage array associated with the mirror consistency groups that are configured to mirror over an iSCSI connection. Storage arrays that receive this message automatically update their remote-target IP address.
 
-If the storage array with the changed IP address is unable to send its inter-array message to a remote storage array, the system sends you an alert of the connectivity issue. Use the *Update Remote IP Address* option to re-establish connection with the local storage array.
+If the storage array with the changed IP address is unable to send its inter-array message to a remote storage array, the system sends you an alert of the connectivity issue. Use the Update Remote IP Address option to re-establish connection with the local storage array.

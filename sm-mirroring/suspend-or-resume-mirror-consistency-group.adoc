@@ -36,5 +36,5 @@ System Manager performs the following actions:
 
 * Either suspends or resumes data transfer between all mirrored pairs in a mirror consistency group without removing the mirror relationship.
 * Logs any data that was written to the primary side of the mirror consistency group while the mirror group is suspended and writes the data automatically to the secondary side of the mirror consistency group when the mirror group is resumed. A full synchronization is not required.
-* For a _suspended_ mirror consistency groups, displays *user-suspended* in the Mirror Consistency Groups table.
+* For a _suspended_ mirror consistency groups, displays user-suspended in the Mirror Consistency Groups table.
 * For a _resumed_ mirror consistency group, data written to the primary volumes while the mirror consistency group was suspended is written to the secondary volumes immediately. Periodic synchronization resumes if an automatic synchronization interval has been set.
