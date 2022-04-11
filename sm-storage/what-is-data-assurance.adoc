@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/what-is-data-assurance.html
 sidebar: sidebar
-keywords: 
-summary: 'Data Assurance \(DA\) checks for and corrects errors that might occur as data is communicated between a host and a storage array. DA capabilities are presented at the pool and volume group level in System Manager.'
+keywords: data, assurance
+summary: "Data Assurance (DA) checks for and corrects errors that might occur as data is communicated between a host and a storage array. DA capabilities are presented at the pool and volume group level in System Manager."
 ---
 = What is Data Assurance?
 :icons: font
