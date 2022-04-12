@@ -102,7 +102,7 @@ There is one XML-formatted file for each controller.
 [.lead]
 To provide users with authorization and access to System Manager, you must map the IdP user attributes and group memberships to the storage array's predefined roles.
 
-=== Before you begin
+.Before you begin
 
 * An IdP administrator has configured user attributes and group membership in the IdP system.
 * The IdP metadata file is imported into System Manager.

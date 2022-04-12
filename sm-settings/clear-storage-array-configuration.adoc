@@ -79,7 +79,7 @@ X
 . *Optional*: If you want to save the configuration (not the data), use the links in the dialog box.
 . Confirm that you want to perform the operation.
 
-== Results
+.Results
 
 * The current configuration is deleted, destroying all existing data on the storage array.
 * All drives are unassigned.
