@@ -2,7 +2,7 @@
 permalink: sm-storage/generic-concepts.html
 sidebar: sidebar
 keywords: concepts
-summary: " "
+summary: "Learn more about..."
 ---
 = Concepts
 :icons: font

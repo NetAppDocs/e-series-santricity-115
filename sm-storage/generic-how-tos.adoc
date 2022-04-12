@@ -2,7 +2,7 @@
 permalink: sm-storage/generic-how-tos.html
 sidebar: sidebar
 keywords: how, tos
-summary: " "
+summary: "I want to..."
 ---
 = How tos
 :icons: font
