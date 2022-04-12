@@ -54,7 +54,6 @@ Alert me...
 a|
 If you set the synchronization method to occur automatically, set the following alerts:
 
-
 -   **Synchronization** – Set the length of time after which System Manager sends an alert that synchronization has not completed.
 -   **Remote recovery point** – Set a time limit after which System Manager sends an alert indicating that the recovery point data on the remote storage array is older than your defined time limit. Define the time limit from the end of the previous update.
 -   **Reserved capacity threshold** – Define a reserved capacity amount at which System Manager sends an alert that you are nearing the reserved capacity threshold. Define the threshold by percentage of the capacity remaining.
