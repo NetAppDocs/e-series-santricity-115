@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html
 sidebar: sidebar
-keywords: 
-summary: 'You can archive audit logs onto an external syslog server.'
+keywords: what, need, configuring, syslog, server
+summary: "You can archive audit logs onto an external syslog server."
 ---
 = What do I need to know before configuring a syslog server?
 :icons: font

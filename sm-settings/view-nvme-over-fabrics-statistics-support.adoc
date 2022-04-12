@@ -1,17 +1,18 @@
 ---
 permalink: sm-settings/view-nvme-over-fabrics-statistics-support.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view data about the NVMe over Fabrics connections to your storage array.'
+keywords: view, nvme, over, fabrics, statistics
+summary: "You can view data about the NVMe over Fabrics connections to your storage array."
 ---
 = View NVMe over Fabrics statistics
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can view data about the NVMe over Fabrics connections to your storage array.
 
-== About this task
+.About this task
 
 System Manager shows these types of NVMe over Fabrics statistics. All statistics are read-only and cannot be set.
 
@@ -22,9 +23,9 @@ You can view each of these statistics as raw statistics or as baseline statistic
 
 You can access NVMe over Fabrics statistics from the System page (*Settings* > *System*) or from the Support page. These instructions describe how to access the statistics from the Support page.
 
-== Steps
+.Steps
 
-. Select *Support* > *Support Center* > *Diagnostics* tab.
+. Select menu:Support[Support Center > Diagnostics] tab.
 . Select *View NVMe over Fabrics Statistics*.
 . To set the baseline, click *Set new baseline*.
 +
