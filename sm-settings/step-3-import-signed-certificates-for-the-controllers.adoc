@@ -1,30 +1,31 @@
 ---
 permalink: sm-settings/step-3-import-signed-certificates-for-the-controllers.html
 sidebar: sidebar
-keywords: 
-summary: 'After importing the trusted certificate chain, you import a management \(signed\) certificate file for each controller in the storage array.'
+keywords: import, management, certificate, controllers
+summary: "After importing the trusted certificate chain, you import a management (signed) certificate file for each controller in the storage array."
 ---
 = Import a management certificate for controllers
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 After importing the trusted certificate chain, you import a management (signed) certificate file for each controller in the storage array.
 
-== Before you begin
+.Before you begin
 
 * You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
 * The trusted certificates have been imported.
 * The CA returned a management certificate file for each controller.
 * The management certificate file(s) are available on your local system.
 
-== About this task
+.About this task
 
 This task describes how to upload the management certificate files for controller authentication.
 
-== Steps
+.Steps
 
-. Select *Settings* > *Certificates*.
+. Select menu:Settings[Certificates].
 . From the *Array Management* tab, select *Import*.
 +
 A dialog box opens for importing the certificate file(s).
@@ -37,6 +38,6 @@ The file names are displayed in the dialog box.
 +
 The file(s) are uploaded and validated.
 
-== Results
+.Results
 
 The session is automatically terminated. You must log in again for the certificate(s) to take effect. When you log in again, the new CA-signed certificate is used for your session.
