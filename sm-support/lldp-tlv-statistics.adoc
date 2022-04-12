@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/lldp-tlv-statistics.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: lldp, tlv, statistics
+summary: "When you select Link Layer Discovery Protocol (LLDP) Type Length Value (TLV) Statistics, these statistics appear. Two sets of statistics appear: one for the local device and one for the remote device. The local device refers to the controller. The remote device refers to the peer device that the controller is attached to, typically a switch."
 ---
 = LLDP TLV statistics
 :icons: font
@@ -10,6 +10,7 @@ summary: ''
 
 When you select Link Layer Discovery Protocol (LLDP) Type Length Value (TLV) Statistics, these statistics appear. Two sets of statistics appear: one for the local device and one for the remote device. The local device refers to the controller. The remote device refers to the peer device that the controller is attached to, typically a switch.
 
+[cols="2*",options="header"]
 |===
 | Statistic| Definition
 a|
