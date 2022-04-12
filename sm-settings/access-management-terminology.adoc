@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/access-management-terminology.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn how the Access Management terms apply to your storage array.'
+keywords: access, management, terminology
+summary: "Learn how the Access Management terms apply to your storage array."
 ---
 = Access Management terminology
 :icons: font
@@ -10,7 +10,7 @@ summary: 'Learn how the Access Management terms apply to your storage array.'
 
 [.lead]
 Learn how the Access Management terms apply to your storage array.
-
+[options="header"]
 |===
 | Term| Description
 a|
