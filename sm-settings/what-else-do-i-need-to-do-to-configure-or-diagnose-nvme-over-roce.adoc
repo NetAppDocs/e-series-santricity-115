@@ -19,7 +19,7 @@ The NVMe over RoCE settings are available only if your storage array's controlle
 
 == Configure and diagnose NVMe over RoCE
 
-[cols="1a,1a" options="header"]
+[cols="25h,~" options="header"]
 |===
 | Action| Location
 a|

@@ -5,6 +5,7 @@ keywords: import, trusted, certificates, controllers
 summary: "After receiving digital certificates from a certificate authority (CA), you can import the certificate chain (intermediate and root) for the controllers."
 ---
 = Import trusted certificates for controllers
+:experimental:
 :icons: font
 :imagesdir: ../media/
 

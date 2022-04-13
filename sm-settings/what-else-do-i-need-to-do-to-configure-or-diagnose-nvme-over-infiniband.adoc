@@ -19,7 +19,7 @@ The NVMe over InfiniBand settings are available only if your storage array's con
 
 == Configure and diagnose NVMe over InfiniBand
 
-[cols="1a,1a" options="header"]
+[cols="25h,~" options="header"]
 |===
 | Action| Location
 a|
