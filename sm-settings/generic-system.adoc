@@ -1,10 +1,10 @@
 ---
 permalink: sm-settings/generic-system.html
 sidebar: sidebar
-keywords: 
-summary: 'Use the System page to access and change settings that are applicable at the storage array level.'
+keywords: system, access, change settings, applicable, storage array,
+summary: "Use the System page to access and change settings that are applicable at the storage array level."
 ---
-= image:../media/sam1130-icon-system.gif[] System
+= System
 :icons: font
 :imagesdir: ../media/
 
