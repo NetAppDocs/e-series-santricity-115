@@ -21,7 +21,7 @@ To configure syslog alerts, you must enter a syslog server address and a UDP por
 
 This task describes how to enter the address and port for the syslog server, and then test the address you entered.
 
-== Steps
+.Steps
 
 . Select menu:Settings[Alerts].
 . Select the *Syslog* tab.
