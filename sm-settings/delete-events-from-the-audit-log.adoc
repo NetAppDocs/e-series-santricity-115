@@ -23,7 +23,7 @@ This task describes how to remove old events from the audit log.
 .Steps
 
 . Select menu:Settings[Access Management].
-. Select the **Audit Log**tab.
+. Select the *Audit Log* tab.
 . Select *Delete*.
 +
 The *Delete Audit Log dialog* box opens.

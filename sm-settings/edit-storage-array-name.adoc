@@ -31,7 +31,7 @@ A name can contain letters, numbers, and the special characters underscore (_), 
 +
 [NOTE]
 ====
-If you want to close the editable field without making changes, click the *Cancel* (X) icon.
+If you want to close the editable field without making changes, click the Cancel (X) icon.
 ====
 
 .Result
