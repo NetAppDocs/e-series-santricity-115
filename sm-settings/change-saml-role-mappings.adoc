@@ -30,7 +30,7 @@ The *Role Mapping* dialog box opens.
 +
 [CAUTION]
 ====
-*Be careful that you do not remove your permissions while SAML is enabled, or you will lose access to System Manager.*
+Be careful that you do not remove your permissions while SAML is enabled, or you will lose access to System Manager.
 ====
 +
 .Field Details
@@ -72,6 +72,6 @@ The Monitor role is required for all users, including the administrator. System 
 . Optionally, click *Add another mapping* to enter more group-to-role mappings.
 . Click *Save*.
 
-== Results
+.Result
 
 After you complete this task, any active user sessions are terminated. Only your current user session is retained.
