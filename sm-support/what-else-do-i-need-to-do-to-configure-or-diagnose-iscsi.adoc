@@ -64,6 +64,7 @@ or
 . Select *View/End iSCSI Sessions*.
 a|
 View iSCSI statistics
+
 a|
 . Select menu:Settings[System].
 . Scroll down to *iSCSI settings*, and then select *View iSCSI Statistics Packages*.

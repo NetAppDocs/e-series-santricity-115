@@ -5,6 +5,7 @@ keywords: view, autosupport, status
 summary: "The AutoSupport page shows you whether the AutoSupport feature and the individual AutoSupport features are currently enabled."
 ---
 = View AutoSupport status
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
