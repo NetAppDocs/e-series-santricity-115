@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/performance-overview.html
 sidebar: sidebar
-keywords: 
-summary: 'The Performance page provides graphs and tables of data that enable you to assess the storage array’s performance in several key areas.'
+keywords: performance, overview
+summary: "The Performance page provides graphs and tables of data that enable you to assess the storage array’s performance in several key areas."
 ---
 = Performance overview
 :icons: font
@@ -26,6 +26,7 @@ You can view performance data in three formats:
 
 == Characteristics of performance data formats
 
+[cols="5*",options="header"]
 |===
 | *Type of performance monitoring*| *Sampling interval*| *Length of time displayed*| *Maximum number of objects displayed*| *Ability to save data*
 a|

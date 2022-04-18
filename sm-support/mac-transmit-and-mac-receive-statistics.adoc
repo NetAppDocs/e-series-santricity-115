@@ -1,8 +1,8 @@
 ---
 permalink: sm-support/mac-transmit-and-mac-receive-statistics.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: mac transmit, mac receive, statistics
+summary: "When you select Ethernet MAC statistics, these MAC transmit statistics appear. You can view each of these statistics as raw statistics or as baseline statistics."
 ---
 = MAC transmit and MAC receive statistics
 :icons: font
@@ -10,6 +10,7 @@ summary: ''
 
 When you select Ethernet MAC statistics, these MAC transmit statistics appear. You can view each of these statistics as raw statistics or as baseline statistics.
 
+[cols="2*",options="header"]
 |===
 | Statistic| Definition
 a|
@@ -75,6 +76,7 @@ Jumbo frame count
 |===
 When you select Ethernet MAC statistics, these MAC receive statistics appear.
 
+[cols="2*",options="header"]
 |===
 | Statistic| Definition
 a|

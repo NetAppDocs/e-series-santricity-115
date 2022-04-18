@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/snapshot-schedules-and-snapshot-consistency-groups.html
 sidebar: sidebar
-keywords: 
-summary: 'Use schedules for collection of snapshot images, and use snapshot consistency groups to manage multiple base volumes.'
+keywords: snapshot, schedules, consistency, groups
+summary: "Use schedules for collection of snapshot images, and use snapshot consistency groups to manage multiple base volumes."
 ---
 = Snapshot schedules and snapshot consistency groups
 :icons: font
@@ -30,9 +30,9 @@ image::../media/sam1130-dwg-snapshots-consistency-groups-overview.gif[]
 
 |===
 a|
-1   Reserved capacity.
+Reserved capacity.
 a|
-2   Member volume.
+Member volume.
 a|
-3   Consistency group snapshot images.
+Consistency group snapshot images.
 |===

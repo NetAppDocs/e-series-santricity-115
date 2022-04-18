@@ -1,10 +1,11 @@
 ---
 permalink: sm-support/controller-software-and-firmware-upgrades.html
 sidebar: sidebar
-keywords: 
-summary: 'You can upgrade your storage array’s software and firmware for all the latest features and bug fixes.'
+keywords: controller, software, firmware, upgrades
+summary: "You can upgrade your storage array’s software and firmware for all the latest features and bug fixes."
 ---
 = Controller software and firmware upgrades
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -25,19 +26,19 @@ image::../media/sam1130-dwg-upgrade-firmware-locations.gif[]
 
 |===
 a|
-1   Controller shelf
+Controller shelf
 a|
-2   Drive shelf
+Drive shelf
 a|
-3   Software, controller firmware, controller NVSRAM, supervisor software
+Software, controller firmware, controller NVSRAM, supervisor software
 a|
-4   Drive firmware
+Drive firmware
 a|
-5   IOM firmware
+IOM firmware
 a|
-6   Drive firmware
+Drive firmware
 |===
-You can view your current software and firmware versions in the Software and Firmware Inventory dialog box. Go to *Support* > *Upgrade Center*, and then click the link for *Software and Firmware Inventory*.
+You can view your current software and firmware versions in the Software and Firmware Inventory dialog box. Go to menu:Support[Upgrade Center], and then click the link for *Software and Firmware Inventory*.
 
 As part of the upgrade process, the host's multipath/failover driver and/or HBA driver might also need to be upgraded so the host can interact with the controllers correctly. To determine if this is the case, see the `Netapp Interoperability Matrix Tool`.
 
