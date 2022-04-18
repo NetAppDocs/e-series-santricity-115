@@ -1,17 +1,18 @@
 ---
 permalink: sm-settings/step-2-import-certificates-for-key-management-server.html
 sidebar: sidebar
-keywords: 
-summary: 'For external key management, you import certificates for authentication between the storage array and the key management server so the two entities can trust each other. There are two types of certificates: the client certificate validates the controllers, while the key management server certificate validates the server.'
+keywords: import, key, management, server, certificates
+summary: "For external key management, you import certificates for authentication between the storage array and the key management server so the two entities can trust each other. There are two types of certificates: the client certificate validates the controllers, while the key management server certificate validates the server."
 ---
 = Import key management server certificates
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 For external key management, you import certificates for authentication between the storage array and the key management server so the two entities can trust each other. There are two types of certificates: the client certificate validates the controllers, while the key management server certificate validates the server.
 
-== Before you begin
+.Before you begin
 
 * You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
 * A client certificate is available for the storage array.
@@ -28,13 +29,13 @@ A client certificate validates the storage array's controllers, so the key manag
 A key management server certificate validates the server, so the storage array can trust its IP address. To obtain a key management server certificate, you must generate it from the key management server.
 ====
 
-== About this task
+.About this task
 
 This task describes how to upload certificate files for authentication between the storage array controllers and the key management server.
 
-== Steps
+.Steps
 
-. Select *Settings* > *Certificates*.
+. Select menu:Settings[Certificates].
 . From the *Key Management* tab, select *Import*.
 +
 A dialog box opens for importing the certificate files.

@@ -1,27 +1,28 @@
 ---
 permalink: sm-settings/step-1-complete-a-csr.html
 sidebar: sidebar
-keywords: 
-summary: 'To receive a certificate authority \(CA\) certificate for the storage array’s controllers, you must first generate a certificate signing request \(CSR\) file for each controller in the storage array.'
+keywords: complete, ca certificate, signing, request, csr, controllers
+summary: "To receive a certificate authority (CA) certificate for the storage array’s controllers, you must first generate a certificate signing request (CSR) file for each controller in the storage array."
 ---
 = Complete a CA certificate signing request (CSR) for the controllers
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 To receive a certificate authority (CA) certificate for the storage array's controllers, you must first generate a certificate signing request (CSR) file for each controller in the storage array.
 
-== Before you begin
+.Before you begin
 
 * You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
 
-== About this task
+.About this task
 
 This task describes how to generate the .CSR files (certificate signing requests) that you send to a CA to receive signed, management certificates for the controllers. You must provide information about your organization, plus the IP address or DNS name of the controller(s). During this task, one .CSR file is generated if there is only one controller in the storage array and two .CSR files if there are two controllers.
 
-== Steps
+.Steps
 
-. Select *Settings* > *Certificates*.
+. Select menu:Settings[Certificates].
 . From the *Array Management* tab, select *Complete CSR*.
 +
 [NOTE]
@@ -58,6 +59,6 @@ For a single controller, one .CSR file is downloaded to your local system. For d
 
 . Send the .CSR file(s) to your CA.
 
-== After you finish
+.After you finish
 
 When you receive the digital certificates, import the appropriate certificate files that the CA sent to you.

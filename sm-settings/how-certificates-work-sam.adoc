@@ -1,10 +1,11 @@
 ---
 permalink: sm-settings/how-certificates-work-sam.html
 sidebar: sidebar
-keywords: CA certificates,CSR files
-summary: 'A certificate authority \(CA\) is a trusted entity that issues electronic documents, called digital certificates, for Internet security. These certificates identify website owners, which allows for secure connections between clients and servers.'
+keywords: ca certificates, csr files
+summary: "A certificate authority (CA) is a trusted entity that issues electronic documents, called digital certificates, for Internet security. These certificates identify website owners, which allows for secure connections between clients and servers."
 ---
 = How CA certificates work
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -17,7 +18,7 @@ If you are using an external key management server with the Drive Security featu
 
 The following steps are required for using a digital certificate from a trusted authority:
 
-. Go to *Settings* > *Certificates*. Your user login must include Security Admin permissions; otherwise, *Certificates* does not appear on the page.
+. Go to menu:Settings[Certificates]. Your user login must include Security Admin permissions; otherwise, *Certificates* does not appear on the page.
 . Create a Certificate Signing Request (CSR) for each controller or for a key management server.
 . Send the .CSR file(s) to a CA, and then wait for them to send you the certificates.
 . Import the trusted (intermediate and root) certificate from the CA. These certificates establish a point of trust for a CA hierarchy.
