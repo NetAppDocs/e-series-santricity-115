@@ -21,7 +21,7 @@ System Manager shows these types of NVMe over Fabrics statistics. All statistics
 
 You can view each of these statistics as raw statistics or as baseline statistics. Raw statistics are all of the statistics that have been gathered since the controllers were started. Baseline statistics are point-in-time statistics that have been gathered since you set the baseline time.
 
-You can access NVMe over Fabrics statistics from the System page (*Settings* > *System*) or from the Support page. These instructions describe how to access the statistics from the Support page.
+You can access NVMe over Fabrics statistics from the System page (menu:Settings[System]) or from the Support page. These instructions describe how to access the statistics from the Support page.
 
 .Steps
 
