@@ -37,14 +37,14 @@ a|
 a|
 Set the host CHAP secret
 a|
-. Select *Settings* > *System*.
+. Select menu:Settings[System].
 . Scroll down to *iSCSI settings*, and then select *Configure Authentication*.
 
 or
 
-. Select *Storage* > *Hosts*.
+. Select menu:Storage[Hosts].
 . Select a host member.
-. Click *View/Edit Settings* > **Host Ports**tab.
+. Click menu:View/Edit Settings[Host Ports] tab.
 |===
 
 == Diagnose iSCSI
