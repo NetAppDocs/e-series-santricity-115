@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/hardware-terminology.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn how the hardware terms apply to your storage array.'
+keywords: hardware, terminology
+summary: "Learn how the hardware terms apply to your storage array."
 ---
 = Hardware terminology
 :icons: font
@@ -10,7 +10,7 @@ summary: 'Learn how the hardware terms apply to your storage array.'
 
 [.lead]
 Learn how the hardware terms apply to your storage array.
-
+[options="header"]
 |===
 | Component| Description
 a|

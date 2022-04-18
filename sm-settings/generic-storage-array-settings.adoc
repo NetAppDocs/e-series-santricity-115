@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/generic-storage-array-settings.html
 sidebar: sidebar
-keywords: 
-summary: 'Storage array settings are available from the System page.'
+keywords: storege, array, settings
+summary: "Storage array settings are available from the System page."
 ---
 = Storage array settings
 :icons: font

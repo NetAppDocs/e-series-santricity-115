@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/asynchronous-mirror-status.html
 sidebar: sidebar
-keywords: 
-summary: 'The mirror status defines the state of mirror consistency groups and mirrored volume pairs.'
+keywords: asynchronous, mirror, status
+summary: "The mirror status defines the state of mirror consistency groups and mirrored volume pairs."
 ---
 = Asynchronous mirror status
 :icons: font
@@ -12,7 +12,7 @@ summary: 'The mirror status defines the state of mirror consistency groups and m
 The mirror status defines the state of mirror consistency groups and mirrored volume pairs.
 
 == Status for mirror consistency groups
-
+[options="header"]
 |===
 | Status| Description
 a|
@@ -86,7 +86,7 @@ A forced promotion is not allowed when resolving a role conflict.
 == Status for mirrored pairs
 
 A mirrored pair's status indicates whether the data on the primary volume and on the secondary volume is synchronized.
-
+[options="header"]
 |===
 | Status| Description
 a|

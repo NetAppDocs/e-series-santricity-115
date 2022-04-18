@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/how-synchronous-mirroring-works.html
 sidebar: sidebar
-keywords: 
-summary: 'Synchronous mirroring is the replication of data volumes onto separate storage arrays in real time to ensure continuous availability. The purpose is to achieve a recovery point objective \(RPO\) of zero lost data by having a copy of important data available if a disaster happens on one of the two storage arrays.'
+keywords: synchronous, mirror, works
+summary: "Synchronous mirroring is the replication of data volumes onto separate storage arrays in real time to ensure continuous availability. The purpose is to achieve a recovery point objective (RPO) of zero lost data by having a copy of important data available if a disaster happens on one of the two storage arrays."
 ---
 = How synchronous mirroring works
 :icons: font

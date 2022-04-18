@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/requirements-for-using-asynchronous-mirroring.html
 sidebar: sidebar
-keywords: 
-summary: 'If you plan to use the Asynchronous Mirroring feature, keep the following requirements in mind.'
+keywords: requirements, use, asynchronous, mirroring
+summary: "If you plan to use the Asynchronous Mirroring feature, keep the following requirements in mind."
 ---
 = Requirements for using asynchronous mirroring
 :experimental:

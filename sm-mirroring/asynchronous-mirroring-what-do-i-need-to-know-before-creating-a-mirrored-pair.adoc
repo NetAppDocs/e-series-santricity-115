@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html
 sidebar: sidebar
-keywords: 
-summary: 'Your storage array must contain at least one mirror consistency group.'
+keywords: asynchronous, mirror, create, mirrored pair
+summary: "Your storage array must contain at least one mirror consistency group."
 ---
 = Asynchronous mirroring - What do I need to know before creating a mirrored pair?
 :icons: font
@@ -18,4 +18,4 @@ In addition, make sure of the following:
 * Each storage array must have two controllers.
 * You must know the password for the local and remote storage arrays.
 * Your local and remote storage arrays must be connected through a Fibre Channel fabric or iSCSI interface.
-* You must have the browser-based SANtricity Unified Manager installed, and have discovered the two storage arrays you want to mirror data between. Then, from Unified Manager, you select the primary volume's storage array and click *Launch* to open the browser-based SANtricity System Manager.
+* You must have the browser-based SANtricity Unified Manager installed, and have discovered the two storage arrays you want to mirror data between. Then, from Unified Manager, you select the primary volume's storage array and click Launch to open the browser-based SANtricity System Manager.

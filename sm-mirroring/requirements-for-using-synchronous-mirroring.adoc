@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/requirements-for-using-synchronous-mirroring.html
 sidebar: sidebar
-keywords: 
-summary: 'If you use the Synchronous Mirroring feature, keep the following requirements in mind.'
+keywords: requirements, synchronous, mirroring
+summary: "If you use the Synchronous Mirroring feature, keep the following requirements in mind."
 ---
 = Requirements for using synchronous mirroring
 :icons: font
@@ -13,7 +13,7 @@ If you use the Synchronous Mirroring feature, keep the following requirements in
 
 == SANtricity Unified Manager
 
-Because the Synchronous Mirroring feature requires the management of multiple storage arrays, you must have the browser-based SANtricity Unified Manager installed, and have discovered the two storage arrays you want to mirror data between. Then, from Unified Manager, you select the primary volume's storage array and click *Launch* to open the browser-based SANtricity System Manager.
+Because the Synchronous Mirroring feature requires the management of multiple storage arrays, you must have the browser-based SANtricity Unified Manager installed, and have discovered the two storage arrays you want to mirror data between. Then, from Unified Manager, you select the primary volume's storage array and click Launch to open the browser-based SANtricity System Manager.
 
 == Storage arrays
 

@@ -1,8 +1,8 @@
 ---
 permalink: sm-interface/operations-in-progress.html
 sidebar: sidebar
-keywords: 
-summary: 'The Operations in Progress page allows you to view a list of long-running operations that are currently running or are in a suspended, stopped, or failed state. You can take action on certain types of operations.'
+keywords: operations, progress
+summary: "The Operations in Progress page allows you to view a list of long-running operations that are currently running or are in a suspended, stopped, or failed state. You can take action on certain types of operations."
 ---
 = Operations in progress
 :icons: font
@@ -14,7 +14,7 @@ The Operations in Progress page allows you to view a list of long-running operat
 Long-running operations can affect system performance. For some operations, you have the option to stop the operation or change its priority so that more important operations complete first.
 
 Operations that appear on the Operations in Progress page include the following:
-
+[options="header"]
 |===
 | Operation| Possible status of the operation| Actions you can take
 a|
@@ -24,7 +24,7 @@ Completed
 a|
 Clear
 a|
- 
+
 a|
 In progress
 a|
@@ -33,13 +33,13 @@ a|
 * Stop
 
 a|
- 
+
 a|
 Pending
 a|
 Clear
 a|
- 
+
 a|
 Failed
 a|
@@ -48,7 +48,7 @@ a|
 * Re-copy
 
 a|
- 
+
 a|
 Stopped
 a|
@@ -75,7 +75,7 @@ In progress
 a|
 Suspend
 a|
- 
+
 a|
 Suspended
 a|
@@ -87,7 +87,7 @@ In progress
 a|
 Suspend
 a|
- 
+
 a|
 Suspended
 a|
@@ -100,13 +100,13 @@ In progress
 a|
 Cancel
 a|
- 
+
 a|
 Pending
 a|
 Cancel
 a|
- 
+
 a|
 Paused
 a|

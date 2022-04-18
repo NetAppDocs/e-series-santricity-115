@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/considerations-for-setting-up-asynchronous-mirroring.html
 sidebar: sidebar
-keywords: 
-summary: 'To ensure a successful configuration and set up, keep in mind some key considerations as part of your planning.'
+keywords: considerations, setting up, asynchronous, mirror
+summary: "To ensure a successful configuration and set up, keep in mind some key considerations as part of your planning."
 ---
 = Considerations for setting up asynchronous mirroring
 :experimental:
@@ -16,7 +16,7 @@ To ensure a successful configuration and set up, keep in mind some key considera
 
 * Each controller in both the primary array and secondary array must have an Ethernet management port configured and must be connected to your network.
 * Asynchronous mirroring is configured by opening SANtricity Unified Manager. Any mirroring relationship requires that both the local and remote storage systems are discovered by and listed in SANtricity Unified Manager.
-* You must have the browser-based SANtricity Unified Manager installed, and have discovered the two storage arrays you want to mirror data between. Then, from Unified Manager, you select the primary volume's storage array and click *Launch* to open the browser-based SANtricity System Manager.
+* You must have the browser-based SANtricity Unified Manager installed, and have discovered the two storage arrays you want to mirror data between. Then, from Unified Manager, you select the primary volume's storage array and click Launch to open the browser-based SANtricity System Manager.
 
 == Activating
 
@@ -73,5 +73,5 @@ iSCSI ports are configured at the array level on a port-by-port basis. Intercont
 ====
 The iSCSI intercontroller communication must use a host connect port and not the management Ethernet port.
 ====
-+
+
 Asynchronous mirroring uses the storage array's host-side I/O ports to convey mirrored data from the primary side to the secondary side. Because asynchronous mirroring is intended for higher-latency, lower-cost networks, iSCSI (and thus TCP/IP-based) connections are a good fit for it. When asynchronous mirroring is used in iSCSI environments, it is not necessary to dedicate any of the array's front-end iSCSI ports for use with asynchronous mirroring; those ports are shared for both asynchronous mirror traffic and host-to-array I/O connections
