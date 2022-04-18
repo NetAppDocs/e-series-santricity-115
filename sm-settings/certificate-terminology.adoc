@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/certificate-terminology.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn how the certificate terms apply to your storage array.'
+keywords: certificate, terminology
+summary: "Learn how the certificate terms apply to your storage array."
 ---
 = Certificate terminology
 :icons: font
@@ -10,7 +10,7 @@ summary: 'Learn how the certificate terms apply to your storage array.'
 
 [.lead]
 Learn how the certificate terms apply to your storage array.
-
+[options="header"]
 |===
 | Term| Description
 a|

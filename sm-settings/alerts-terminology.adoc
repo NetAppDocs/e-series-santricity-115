@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/alerts-terminology.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn how the alerts terms apply to your storage array.'
+keywords: alerts, terminology
+summary: "Learn how the alerts terms apply to your storage array."
 ---
 = Alerts terminology
 :icons: font
@@ -10,7 +10,7 @@ summary: 'Learn how the alerts terms apply to your storage array.'
 
 [.lead]
 Learn how the alerts terms apply to your storage array.
-
+[options="header"]
 |===
 | Component| Description
 a|

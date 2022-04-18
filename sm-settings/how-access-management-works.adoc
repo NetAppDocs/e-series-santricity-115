@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/how-access-management-works.html
 sidebar: sidebar
-keywords: authentication,users,roles
-summary: 'Access Management is a method of establishing user authentication in SANtricity System Manager. Authentication requires users to log in to these systems with their assigned credentials.'
+keywords: access, management, works
+summary: "Access Management is a method of establishing user authentication in SANtricity System Manager. Authentication requires users to log in to these systems with their assigned credentials."
 ---
 = How Access Management works
 :icons: font
@@ -49,7 +49,7 @@ Access to tasks depends on a user's assigned roles, which include the following:
 * *Support admin* -- Access to all hardware resources on the storage array, failure data, MEL events, and controller firmware upgrades. No access to storage objects or the security configuration.
 * *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
 
-An unavailable task is either grayed out or does not display in the user interface. For example, a user with the Monitor role can view all information about volumes, but cannot access functions for modifying that volume. The tabs for features such as *Copy Services* and *Add to Workload* will be grayed out; only *View/Edit Settings* is available.
+An unavailable task is either grayed out or does not display in the user interface. For example, a user with the Monitor role can view all information about volumes, but cannot access functions for modifying that volume. The tabs for features such as *Copy Services* and *Add to Workload* will be grayed out; only View/Edit Settings is available.
 
 == User access to SANtricity Storage Manager
 

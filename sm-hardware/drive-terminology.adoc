@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/drive-terminology.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn how the drive terms apply to your storage array.'
+keywords: drive, terminology
+summary: "Learn how the drive terms apply to your storage array."
 ---
 = Drive terminology
 :icons: font
@@ -10,7 +10,7 @@ summary: 'Learn how the drive terms apply to your storage array.'
 
 [.lead]
 Learn how the drive terms apply to your storage array.
-
+[options="header"]
 |===
 | Component| Description
 a|

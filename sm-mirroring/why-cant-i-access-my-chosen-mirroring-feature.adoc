@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html
 sidebar: sidebar
-keywords: 
-summary: 'To use either the Asynchronous Mirroring feature or the Synchronous Mirroring feature, you must have the SANtricity Unified Manager running on your local host through an HTTPS connection to discover the storage arrays that are mirroring-capable and to initiate the mirroring operation. From Unified Manager, you must select the storage array from which you want to mirror data from and then click Launch to open SANtricity System Manager.'
+keywords: access, mirror, feature
+summary: "To use either the Asynchronous Mirroring feature or the Synchronous Mirroring feature, you must have the SANtricity Unified Manager running on your local host through an HTTPS connection to discover the storage arrays that are mirroring-capable and to initiate the mirroring operation. From Unified Manager, you must select the storage array from which you want to mirror data from and then click Launch to open SANtricity System Manager."
 ---
 = Why can't I access my chosen mirroring feature?
 :experimental:
@@ -10,7 +10,7 @@ summary: 'To use either the Asynchronous Mirroring feature or the Synchronous Mi
 :imagesdir: ../media/
 
 [.lead]
-To use either the Asynchronous Mirroring feature or the Synchronous Mirroring feature, you must have the SANtricity Unified Manager running on your local host through an HTTPS connection to discover the storage arrays that are mirroring-capable and to initiate the mirroring operation. From Unified Manager, you must select the storage array from which you want to mirror data from and then click *Launch* to open SANtricity System Manager.
+To use either the Asynchronous Mirroring feature or the Synchronous Mirroring feature, you must have the SANtricity Unified Manager running on your local host through an HTTPS connection to discover the storage arrays that are mirroring-capable and to initiate the mirroring operation. From Unified Manager, you must select the storage array from which you want to mirror data from and then click Launch to open SANtricity System Manager.
 
 To use the mirroring feature verify the following:
 

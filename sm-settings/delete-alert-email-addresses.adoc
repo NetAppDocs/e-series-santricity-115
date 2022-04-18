@@ -1,19 +1,20 @@
 ---
 permalink: sm-settings/delete-alert-email-addresses.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete the email addresses of the recipients who receive email alerts.'
+keywords: delete, email, addresses, alerts
+summary: "You can delete the email addresses of the recipients who receive email alerts."
 ---
 = Delete email addresses for alerts
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can delete the email addresses of the recipients who receive email alerts.
 
-== Steps
+.Steps
 
-. Select *Settings* > *Alerts*.
+. Select menu:Settings[Alerts].
 . Select the *Email* tab.
 . From the *Email Address* table, select the email address you want to delete.
 +
@@ -21,10 +22,10 @@ The *Delete* button in the upper right of the table becomes available for select
 
 . Click *Delete*.
 +
-The Confirm Delete Email dialog box opens.
+The *Confirm Delete Email* dialog box opens.
 
 . Confirm the operation, and then click *Delete*.
 
-== Results
+.Result
 
 Alerts are no longer sent to this email address.
