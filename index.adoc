@@ -1,3 +1,4 @@
+---
 layout: astra
 permalink: index.html
 sidebar: sidebar
