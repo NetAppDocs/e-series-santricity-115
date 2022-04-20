@@ -92,8 +92,6 @@ entries:
       url: "/sm-storage/what-is-a-volume-group.html"
     - title: What is a pool?
       url: "/sm-storage/what-is-a-pool.html"
-    - title: What is a volume?
-      url: "/sm-storage/what-is-a-volume.html"
     - title: What is reserved capacity?
       url: "/sm-storage/what-is-reserved-capacity.html"
     - title: What is FDE/FIPS security?
@@ -233,8 +231,6 @@ entries:
       url: "/sm-storage/what-do-i-need-to-do-to-recognize-the-expanded-capacity.html"
     - title: Why don&#8217;t I see all my pools and/or volume groups?
       url: "/sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html"
-    - title: What are the differences between pools and volume groups?
-      url: "/sm-storage/what-are-the-differences-between-pools-and-volume-groups.html"
     - title: What is segment size?
       url: "/sm-storage/what-is-segment-sizing.html"
     - title: What is preferred controller ownership?
