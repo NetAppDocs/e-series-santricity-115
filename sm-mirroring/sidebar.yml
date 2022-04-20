@@ -111,10 +111,8 @@ entries:
       url: "/sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html"
   - title: How tos
     entries:
-    - title: Mirror volumes synchronously
-      entries:
-      - title: Create synchronous mirrored volume
-        url: "/sm-mirroring/create-synchronous-mirrored-volume.html"
+    - title: Create synchronous mirrored volume
+      url: "/sm-mirroring/create-synchronous-mirrored-volume.html"
     - title: Manage synchronous mirrored pairs
       entries:
       - title: Test communication for synchronous mirroring
