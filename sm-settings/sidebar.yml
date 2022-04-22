@@ -2,20 +2,16 @@ section: sm-settings
 title: Settings
 entries:
 - title: Alerts
-  url: "/sm-settings/generic-alerts.html"
   entries:
   - title: Concepts
-    url: "/sm-settings/generic-concepts.html"
     entries:
     - title: How alerts work
       url: "/sm-settings/how-alerts-work.html"
     - title: Alerts terminology
       url: "/sm-settings/alerts-terminology.html"
   - title: How tos
-    url: "/sm-settings/generic-how-tos.html"
     entries:
     - title: Manage email alerts
-      url: "/sm-settings/manage-email-alerts.html"
       entries:
       - title: Configure mail server and recipients for alerts
         url: "/sm-settings/configure-mail-server-and-recipients-for-alerts.html"
@@ -28,7 +24,6 @@ entries:
       - title: Edit mail server for alerts
         url: "/sm-settings/edit-mail-server-for-alerts.html"
     - title: Manage SNMP alerts
-      url: "/sm-settings/manage-snmp-alerts.html"
       entries:
       - title: Configure communities and destinations for SNMP alerts
         url: "/sm-settings/configure-snmp-alerts.html"
@@ -45,7 +40,6 @@ entries:
       - title: Delete trap destinations
         url: "/sm-settings/delete-trap-destinations.html"
     - title: Manage syslog alerts
-      url: "/sm-settings/manage-syslog-alerts.html"
       entries:
       - title: Configure syslog server for alerts
         url: "/sm-settings/configure-syslog-server-for-alerts.html"
@@ -56,7 +50,6 @@ entries:
       - title: Delete syslog servers for alerts
         url: "/sm-settings/delete-syslog-servers-for-alerts.html"
   - title: FAQs
-    url: "/sm-settings/generic-faqs.html"
     entries:
     - title: What if alerts are disabled?
       url: "/sm-settings/what-if-alerts-are-disabled.html"
@@ -65,13 +58,10 @@ entries:
     - title: Why are timestamps inconsistent between the array and alerts?
       url: "/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html"
 - title: System
-  url: "/sm-settings/generic-system.html"
   entries:
   - title: Storage array settings
-    url: "/sm-settings/generic-storage-array-settings.html"
     entries:
     - title: Concepts
-      url: "/sm-settings/generic-concepts.html"
       entries:
       - title: Cache settings and performance
         url: "/sm-settings/cache-settings-and-performance.html"
@@ -80,7 +70,6 @@ entries:
       - title: Default host operating system type
         url: "/sm-settings/default-host-operating-system-type.html"
     - title: How tos
-      url: "/sm-settings/generic-how-tos.html"
       entries:
       - title: Edit storage array name
         url: "/sm-settings/edit-storage-array-name.html"
@@ -107,7 +96,6 @@ entries:
       - title: Enable or disable legacy management interface
         url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
     - title: FAQs
-      url: "/sm-settings/generic-faqs.html"
       entries:
       - title: What is controller cache?
         url: "/sm-settings/what-is-controller-cache.html"
@@ -120,15 +108,12 @@ entries:
       - title: What is host connectivity reporting?
         url: "/sm-settings/what-is-host-connectivity-reporting.html"
   - title: iSCSI settings
-    url: "/sm-settings/generic-iscsi-settings.html"
     entries:
     - title: Concepts
-      url: "/sm-settings/generic-concepts.html"
       entries:
       - title: iSCSI terminology
         url: "/sm-settings/iscsi-terminology.html"
     - title: How tos
-      url: "/sm-settings/generic-how-tos.html"
       entries:
       - title: Configure iSCSI ports
         url: "/sm-settings/configure-iscsi-ports-hardware.html"
@@ -147,7 +132,6 @@ entries:
       - title: View iSER over InfiniBand statistics
         url: "/sm-settings/view-iser-over-infiniband-statistics-support.html"
     - title: FAQs
-      url: "/sm-settings/generic-faqs.html"
       entries:
       - title: What happens when I use an iSNS server for registration?
         url: "/sm-settings/what-happens-when-i-use-an-isns-server.html"
@@ -158,17 +142,14 @@ entries:
       - title: What else do I need to do to configure or diagnose iSER over InfiniBand?
         url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
   - title: 'System: NVMe settings'
-    url: "/sm-settings/generic-nvme-settings.html"
     entries:
     - title: Concepts
-      url: "/sm-settings/generic-concepts.html"
       entries:
       - title: NVMe overview
         url: "/sm-settings/nvme-overview.html"
       - title: NVMe terminology
         url: "/sm-settings/nvme-terminology.html"
     - title: How tos
-      url: "/sm-settings/generic-how-tos.html"
       entries:
       - title: Configure NVMe over InfiniBand ports
         url: "/sm-settings/configure-nvme-over-infiniband-ports-hardware.html"
@@ -177,7 +158,6 @@ entries:
       - title: View NVMe over Fabrics statistics
         url: "/sm-settings/view-nvme-over-fabrics-statistics-support.html"
     - title: FAQs
-      url: "/sm-settings/generic-faqs.html"
       entries:
       - title: How do I interpret NVMe over InfiniBand statistics?
         url: "/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html"
@@ -188,17 +168,14 @@ entries:
       - title: What else do I need to do to configure or diagnose NVMe over RoCE?
         url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html"
   - title: Add-on features
-    url: "/sm-settings/generic-add-on-features.html"
     entries:
     - title: Concepts
-      url: "/sm-settings/generic-concepts.html"
       entries:
       - title: How add-on features work
         url: "/sm-settings/how-add-on-features-work.html"
       - title: Add-on feature terminology
         url: "/sm-settings/add-on-feature-terminology.html"
     - title: How tos
-      url: "/sm-settings/generic-how-tos.html"
       entries:
       - title: Obtain a feature key file
         url: "/sm-settings/obtain-a-feature-key-file.html"
@@ -207,10 +184,8 @@ entries:
       - title: Enable feature pack
         url: "/sm-settings/enable-feature-pack.html"
   - title: Security key management
-    url: "/sm-settings/generic-security-key-management.html"
     entries:
     - title: Concepts
-      url: "/sm-settings/generic-concepts.html"
       entries:
       - title: How the Drive Security feature works
         url: "/sm-settings/how-the-drive-security-feature-works.html"
@@ -219,7 +194,6 @@ entries:
       - title: Drive Security terminology
         url: "/sm-settings/drive-security-terminology.html"
     - title: How tos
-      url: "/sm-settings/generic-how-tos.html"
       entries:
       - title: Create internal security key
         url: "/sm-settings/create-internal-security-key.html"
@@ -238,7 +212,6 @@ entries:
       - title: Unlock drives using a security key
         url: "/sm-settings/unlock-drives-using-an-internal-security-key.html"
     - title: FAQs
-      url: "/sm-settings/generic-faqs.html"
       entries:
       - title: What do I need to know before creating a security key?
         url: "/sm-settings/what-do-i-need-to-know-before-creating-a-security-key.html"
@@ -257,11 +230,9 @@ entries:
       - title: What is the difference between internal security key and external
           security key management?
         url: "/sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html"
-- title: Access Management
-  url: "/sm-settings/generic-access-management.html"
+- title: Access management
   entries:
   - title: Concepts
-    url: "/sm-settings/generic-concepts.html"
     entries:
     - title: How Access Management works
       url: "/sm-settings/how-access-management-works.html"
@@ -276,7 +247,6 @@ entries:
     - title: Access Management with SAML
       url: "/sm-settings/access-management-with-saml.html"
   - title: How tos
-    url: "/sm-settings/generic-how-tos.html"
     entries:
     - title: View local user roles
       url: "/sm-settings/view-local-user-roles.html"
@@ -307,7 +277,6 @@ entries:
     - title: Edit syslog server settings for audit log records
       url: "/sm-settings/edit-syslog-server-settings-for-audit-log-records.html"
   - title: FAQs
-    url: "/sm-settings/generic-faqs.html"
     entries:
     - title: Why can&#8217;t I log in?
       url: "/sm-settings/why-cant-i-log-in.html"
@@ -326,17 +295,14 @@ entries:
     - title: The syslog server is no longer receiving audit logs. What do I do?
       url: "/sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html"
 - title: Certificates
-  url: "/sm-settings/generic-certificates.html"
   entries:
   - title: Concepts
-    url: "/sm-settings/generic-concepts.html"
     entries:
     - title: How CA certificates work
       url: "/sm-settings/how-certificates-work-sam.html"
     - title: Certificate terminology
       url: "/sm-settings/certificate-terminology.html"
   - title: How tos
-    url: "/sm-settings/generic-how-tos.html"
     entries:
     - title: Complete a CA certificate signing request (CSR) for the controllers
       url: "/sm-settings/step-1-complete-a-csr.html"
@@ -359,7 +325,6 @@ entries:
     - title: Enable certificate revocation checking
       url: "/sm-settings/enable-certificate-revocation-checking.html"
   - title: FAQs
-    url: "/sm-settings/generic-faqs.html"
     entries:
     - title: Why does the Cannot Access Other Controller dialog box appear?
       url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
