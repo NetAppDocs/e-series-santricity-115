@@ -1,13 +1,13 @@
 ---
 settings:
-  name: Catalyst Migration
+  name: "SANtricity 11.5"
   internal:
     pdf_enabled: false
   prod:
     pdf_enabled: true
 sidebar:
   entries:
-  - title: SANtricity 11.5 
+  - title: SANtricity 11.5 docs
     url: "/index.html"
   - section: sm-interface
   - section: sm-storage
