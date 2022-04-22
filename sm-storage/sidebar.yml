@@ -12,7 +12,7 @@ entries:
     - title: How reserved capacity works
       url: "/sm-storage/how-reserved-capacity-works.html"
     - title: How SSD Cache works
-      url: "/sm-storage/how-ssd-works.html"
+      url: "/sm-storage/how-ssd-cache-works.html"
     - title: SSD Cache restrictions
       url: "/sm-storage/ssd-cache-restrictions.html"
     - title: Decide whether to use a pool or a volume group
@@ -32,7 +32,7 @@ entries:
       - title: Create volume group
         url: "/sm-storage/create-volume-group.html"
       - title: Create SSD Cache
-        url: "/sm-storage/create-ssd.html"
+        url: "/sm-storage/create-ssd-cache.html"
       - title: Add capacity to a pool or volume group
         url: "/sm-storage/add-capacity-to-a-pool-or-volume-group.html"
     - title: Manage pools, volume groups, and SSD Cache
