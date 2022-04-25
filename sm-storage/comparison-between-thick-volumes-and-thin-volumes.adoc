@@ -11,6 +11,8 @@ summary: "A thick volume is always fully-provisioned, which means that all of th
 [.lead]
 A thick volume is always fully-provisioned, which means that all of the capacity is allocated when the volume is created. A thin volume is always thinly-provisioned, which means that the capacity is allocated as the data is being written to the volume.
 
+== When to use a thick or thin volume
+
 You can create thick volumes from either a pool or volume group. You can create thin volumes only from a pool, not from a volume group.
 
 [NOTE]

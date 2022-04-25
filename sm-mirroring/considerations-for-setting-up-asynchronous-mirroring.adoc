@@ -27,7 +27,7 @@ Before using asynchronous mirroring, you must activate it on each storage array 
 
 == Web services certificates and recommended browsers
 
-* Trusted certificates
+* *Trusted certificates*
 +
 For mirroring involving systems managed by SANtricity System Manager, it is recommended to import the trusted certificates for the web services in SANtricity Unified Manager that allow the storage systems to authenticate with the web server. The steps within SANtricity Unified Manager are as follows:
 
@@ -35,7 +35,7 @@ For mirroring involving systems managed by SANtricity System Manager, it is reco
  .. Send the CSR to a certificate authority (CA).
  .. When the CA sends back the signed certificates, import in Unified Manager.
 
-* Self-signed certificates
+* *Self-signed certificates*
 +
 Self-signed certificates can also be used. If the administrator attempts to configure mirroring without importing signed certificates, SANtricity System Manager displays an error dialog box that allows the administrator to accept the self-signed certificate. In this case, using the latest version of Chrome or Firefox as the browser is recommended.
 +

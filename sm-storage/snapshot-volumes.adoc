@@ -17,15 +17,8 @@ When you create read-only snapshot volumes, you do not need to add reserved capa
 
 image::../media/sam1130-dwg-snapshots-volumes-overview.gif[]
 
-|===
-a|
-Base volume.
-a|
-Host.
-a|
-Read-only snapshot volume.
-a|
-Read-write snapshot volume.
-a|
-Reserved capacity.
-|===
+^1^ Base volume
+^2^ Host
+^3^ Read-only snapshot volume
+^4^ Read-write snapshot volume
+^5^ Reserved capacity
