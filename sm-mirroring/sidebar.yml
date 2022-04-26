@@ -30,7 +30,6 @@ entries:
       - title: Complete mirrored pair for primary volumes created on legacy system
         url: "/sm-mirroring/complete-mirrored-pair-for-primary-volumes-created-on-legacy-system.html"
     - title: Manage mirror consistency groups
-      url: "/sm-mirroring/manage-mirror-consistency-groups.html"
       entries:
       - title: Test communication for mirror consistency groups
         url: "/sm-mirroring/test-communication-for-mirror-consistency-groups.html"
