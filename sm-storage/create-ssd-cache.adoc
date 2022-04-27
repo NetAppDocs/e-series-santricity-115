@@ -5,6 +5,7 @@ keywords: create, ssd, cache
 summary: "To dynamically accelerate system performance, you can use the SSD Cache feature to cache the most frequently accessed data onto lower latency Solid State Drives. SSD Cache is used exclusively for host reads."
 ---
 = Create SSD Cache
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -78,7 +79,7 @@ If you want to use DA, select an SSD Cache candidate that is DA capable. This op
 SSD Cache can contain both DA-capable and non-DA-capable drives, but all drives must be DA-capable for you to use DA.
 |===
 
-. Associate the SSD Cache with the volumes for which you want to implement SSD read caching. To enable SSD Cache on compatible volumes immediately, select the**Enable SSD Cache on existing compatible volumes that are mapped to hosts** check box.
+. Associate the SSD Cache with the volumes for which you want to implement SSD read caching. To enable SSD Cache on compatible volumes immediately, select the *Enable SSD Cache on existing compatible volumes that are mapped to hosts* check box.
 +
 Volumes are compatible if they share the same Drive Security and DA capabilities.
 

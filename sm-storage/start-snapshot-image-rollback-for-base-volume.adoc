@@ -54,6 +54,8 @@ System Manager performs the following actions:
 * Restores the volume with the content saved on the selected snapshot image.
 * Makes the rolled-back volumes immediately available for host access. You do not need to wait for the rollback operation to complete.
 
+.After you finish
+
 Select menu:Home[View Operations in Progress] to view the progress of the rollback operation.
 
 If the rollback operation is not successful, the operation pauses. You can resume the paused operation and, if still unsuccessful, follow the Recovery Guru procedure to correct the problem or contact technical support.

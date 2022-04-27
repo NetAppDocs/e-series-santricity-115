@@ -28,7 +28,7 @@ The Drive Settings dialog box opens.
 
 . To see all settings, click *Show more settings*, in the upper right of the dialog box.
 +
-.Field Detils
+.Field Details
 [%collapsible]
 ====
 [options="header"]

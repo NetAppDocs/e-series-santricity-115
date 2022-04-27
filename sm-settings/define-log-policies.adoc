@@ -45,7 +45,7 @@ Determines the policy for overwriting old events when the maximum capacity is re
  ** *Require audit log events to be manually deleted* -- Specifies that events will not be automatically deleted; instead, a threshold warning appears at the set percentage. Events must be deleted manually.
 +
 NOTE: If the overwrite policy is disabled and the audit log entries reach the maximum limit, access to System Manager is denied to users without Security Admin permissions. To restore system access to users without Security Admin permissions, a user assigned to the Security Admin role must delete the old event records.
-
++
 NOTE: Overwrite policies do not apply if a syslog server is configured for archiving audit logs.
 
 a|

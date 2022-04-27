@@ -21,7 +21,7 @@ Use the Secure Erase option only if you want to remove all data on a secure-enab
 
 [CAUTION]
 ====
-*Possible loss of data -- The Secure Erase operation cannot be undone. Make sure you select the correct drive during the procedure*.
+*Possible loss of data* -- The Secure Erase operation cannot be undone. Make sure you select the correct drive during the procedure.
 ====
 
 .Steps
@@ -44,7 +44,7 @@ The shelf view shows only the secure-enabled, unassigned drives; all others are 
 +
 [CAUTION]
 ====
-*Possible loss of data -- Make sure that you have selected the correct drive. After completing the Secure Erase operation, you cannot recover any of the data*.
+*Possible loss of data* -- Make sure that you have selected the correct drive. After completing the Secure Erase operation, you cannot recover any of the data.
 ====
 +
 The drive's context menu opens.

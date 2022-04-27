@@ -22,11 +22,4 @@ When a rollback is launched, a background process sweeps through the logical blo
 
 image::../media/sam1130-dwg-snapshots-rollback-overview.gif[]
 
-|===
-a|
-Base volume.
-a|
-Snapshot objects in a group.
-a|
-Snapshot group reserved capacity.
-|===
+^1^ Base volume;  ^2^ Snapshot objects in a group;  ^3^ Snapshot group reserved capacity
