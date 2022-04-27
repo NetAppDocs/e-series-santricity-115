@@ -263,8 +263,6 @@ entries:
         url: "/sm-storage/create-host-manually.html"
       - title: Create host cluster
         url: "/sm-storage/create-host-cluster.html"
-      - title: Create volumes
-        url: "/sm-storage/create-volumes-storage.html"
       - title: Assign volumes
         url: "/sm-storage/assign-volumes.html"
     - title: Manage hosts and host clusters
