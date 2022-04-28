@@ -15,3 +15,5 @@ sidebar:
   - section: sm-hardware
   - section: sm-settings
   - section: sm-support
+  - title: Legal notices
+    url: /legal-notices.html
