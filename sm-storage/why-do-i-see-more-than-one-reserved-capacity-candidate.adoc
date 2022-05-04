@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/why-do-i-see-more-than-one-reserved-capacity-candidate.html
 sidebar: sidebar
-keywords: 
-summary: 'You see more than one reserved capacity candidate when System Manager detects more than one volume in a pool or volume group that meets the capacity percentage amount you selected for the storage object.'
+keywords: reserved capacity, candidate
+summary: "You see more than one reserved capacity candidate when System Manager detects more than one volume in a pool or volume group that meets the capacity percentage amount you selected for the storage object."
 ---
 = Why do I see more than one reserved capacity candidate?
 :icons: font

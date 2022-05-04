@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/capacity-terminology.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn how the capacity terms apply to your storage array.'
+keywords: capacity, terminology
+summary: "Learn how the capacity terms apply to your storage array."
 ---
 = Capacity terminology
 :icons: font
@@ -15,6 +15,7 @@ Learn how the capacity terms apply to your storage array.
 
 The following terminology describes the different types of storage objects that can interact with your storage array.
 
+[cols="2*",options="header"]
 |===
 | Storage object| Description
 a|
@@ -84,6 +85,7 @@ A volume group is a container for volumes with shared characteristics. A volume 
 
 The following terminology describes the different types of capacity used on your storage array.
 
+[cols="2*",options="header"]
 |===
 | Capacity type| Description
 a|

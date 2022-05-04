@@ -1,10 +1,11 @@
 ---
 permalink: sm-interface/whats-new-in-sam.html
 sidebar: sidebar
-keywords: 
-summary: 'System Manager includes the following new features.'
+keywords: new, santricity, system manager
+summary: "System Manager includes the following new features."
 ---
 = What's new in SANtricity System Manager
+:experimental:
 :icons: font
 :imagesdir: ../media/
 
@@ -16,13 +17,13 @@ System Manager includes the following new features.
 This version includes only minor enhancements and fixes.
 
 == New features in Version 11.52
-
+[options="header"]
 |===
 | New feature| Description
 a|
 NVMe over FC host interface
 a|
-An NVMe over Fibre Channel host connection can now be ordered for EF570 or E5700 controller models, in addition to the existing support for NVMe over RoCE and NVMe over InfiniBand. System Manager includes statistics for this new connection type in *Settings* > *System* under "NVMe over Fibre Channel details."
+An NVMe over Fibre Channel host connection can now be ordered for EF570 or E5700 controller models, in addition to the existing support for NVMe over RoCE and NVMe over InfiniBand. System Manager includes statistics for this new connection type in menu:Settings[System] under "NVMe over Fibre Channel details."
 |===
 
 == New features in Version 11.51
@@ -30,13 +31,13 @@ An NVMe over Fibre Channel host connection can now be ordered for EF570 or E5700
 This version includes only minor enhancements and fixes.
 
 == New features in Version 11.50
-
+[options="header"]
 |===
 | New feature| Description
 a|
 NVMe over RoCE interface
 a|
-An NVMe over RoCE host connection can now be ordered for EF570 or E5700 DE Series controllers. System Manager includes new functions for configuring the network connection to the host (available from the *Hardware* page or from *Settings* > *System*), and functions for viewing data about the NVMe over RoCE connections to the storage array (available from *Support* > *Support Center* or from *Settings* > *System*).
+An NVMe over RoCE host connection can now be ordered for EF570 or E5700 DE Series controllers. System Manager includes new functions for configuring the network connection to the host (available from the Hardware page or from menu:Settings[System], and functions for viewing data about the NVMe over RoCE connections to the storage array (available from menu:Support[Support Center] or from menu:Settings[System].
 a|
 Manual drive selection for volume groups
 a|

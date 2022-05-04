@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/view-drive-status-and-settings.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view status and settings for the drives, such as the media type, interface type, and capacity.'
+keywords: view, drive, status, settings
+summary: "You can view status and settings for the drives, such as the media type, interface type, and capacity."
 ---
 = View drive status and settings
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can view status and settings for the drives, such as the media typ
 [.lead]
 You can view status and settings for the drives, such as the media type, interface type, and capacity.
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the controllers, click *Show front of shelf*.
@@ -28,8 +28,10 @@ The Drive Settings dialog box opens.
 
 . To see all settings, click *Show more settings*, in the upper right of the dialog box.
 +
-Field Details
-+
+.Field Details
+[%collapsible]
+====
+[options="header"]
 |===
 | Settings| Description
 a|
@@ -48,9 +50,9 @@ a|
 Assigned to/Can protect for/Protecting
 a|
 If the drive is assigned to a pool, volume group, or SSD cache, this field displays "Assigned to." The value can be a pool name, volume group name, or SSD cache name.    If the drive is assigned to a hot spare and its mode is Standby, this field displays "Can protect for." If the hot spare can protect one or more volume groups, the volume group names appear. If it cannot protect a volume group, it displays 0 volume groups.
-+
+
 If the drive is assigned to a hot spare and its mode is In Use, this field displays "Protecting." The value is the name of the affected volume group.
-+
+
 If the drive is unassigned, this field does not appear.
 a|
 Media type
@@ -133,5 +135,5 @@ Data Assurance (DA) capable
 a|
 Shows whether the Data Assurance (DA) feature is enabled (Yes) or not (No). Data Assurance (DA) is a feature that checks for and corrects errors that might occur as data is communicated between a host and a storage array. Data Assurance can be enabled at the pool or volume group level, with hosts using a DA-capable I/O interface such as Fibre Channel.
 |===
-
+====
 . Click *Close*.

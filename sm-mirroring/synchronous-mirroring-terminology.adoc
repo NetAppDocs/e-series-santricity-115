@@ -1,8 +1,8 @@
 ---
 permalink: sm-mirroring/synchronous-mirroring-terminology.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn how the synchronous mirroring terms apply to your storage array.'
+keywords: synchronous, mirror, terminology
+summary: "Learn how the synchronous mirroring terms apply to your storage array."
 ---
 = Synchronous mirroring terminology
 :icons: font
@@ -10,11 +10,9 @@ summary: 'Learn how the synchronous mirroring terms apply to your storage array.
 
 [.lead]
 Learn how the synchronous mirroring terms apply to your storage array.
-
+[options="header"]
 |===
-| Term
-
-| Description
+| Term | Description
 
 a|
 Local storage array

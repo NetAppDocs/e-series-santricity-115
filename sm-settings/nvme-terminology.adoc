@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/nvme-terminology.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn how the NVMe terms apply to your storage array.'
+keywords: nvme, terminology
+summary: "Learn how the NVMe terms apply to your storage array."
 ---
 = NVMe terminology
 :icons: font
@@ -10,6 +10,8 @@ summary: 'Learn how the NVMe terms apply to your storage array.'
 
 [.lead]
 Learn how the NVMe terms apply to your storage array.
+
+[cols="25h,~",options="header"]
 
 |===
 | Term| Description
@@ -21,7 +23,6 @@ a|
 Namespace
 a|
 A namespace is NVM storage that is formatted for block access. It is analogous to a logical unit in SCSI, which relates to a volume in the storage array.
-
 a|
 Namespace ID
 a|
@@ -46,7 +47,6 @@ a|
 NVMe controller
 a|
 An NVMe controller is created during the host connection process. It provides an access path between a host and the namespaces in the storage array.
-
 a|
 NVMe queue
 a|

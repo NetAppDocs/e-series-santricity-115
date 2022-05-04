@@ -1,8 +1,8 @@
 ---
 permalink: sm-settings/configure-nvme-over-infiniband-ports-hardware.html
 sidebar: sidebar
-keywords: 
-summary: 'If your controller includes an NVMe over InfiniBand connection, you can configure the NVMe port settings from the Hardware page or the System page.'
+keywords: configure, nvme, infiniband, ports
+summary: "If your controller includes an NVMe over InfiniBand connection, you can configure the NVMe port settings from the Hardware page or the System page."
 ---
 = Configure NVMe over InfiniBand ports
 :experimental:
@@ -12,21 +12,21 @@ summary: 'If your controller includes an NVMe over InfiniBand connection, you ca
 [.lead]
 If your controller includes an NVMe over InfiniBand connection, you can configure the NVMe port settings from the Hardware page or the System page.
 
-== Before you begin
+.Before you begin
 
 * Your controller must include an NVMe over InfiniBand host port; otherwise, the NVMe over InfiniBand settings are not available in System Manager.
 * You must know the IP address of the host connection.
 
-== About this task
+.About this task
 
-You can access the NVMe over InfiniBand configuration from the *Hardware* page or from menu:Settings[System]. This task describes how to configure the ports from the Hardware page.
+You can access the NVMe over InfiniBand configuration from the *Hardware* page or from menu:Settings[System]. This task describes how to configure the ports from the *Hardware* page.
 
 [NOTE]
 ====
 The NVMe over InfiniBand settings and functions appear only if your storage array's controller includes an NVMe over InfiniBand port.
 ====
 
-== Steps
+.Steps
 
 . Select *Hardware*.
 . If the graphic shows the drives, click *Show back of shelf*.
@@ -39,7 +39,7 @@ The controller's context menu appears.
 
 . Select *Configure NVMe over InfiniBand ports*.
 +
-The Configure NVMe over InfiniBand Ports dialog box opens.
+The *Configure NVMe over InfiniBand Ports* dialog box opens.
 
 . In the drop-down list, select the HIC port you want to configure, and then enter the IP address of the host.
 . Click *Configure*.

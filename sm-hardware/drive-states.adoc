@@ -1,8 +1,8 @@
 ---
 permalink: sm-hardware/drive-states.html
 sidebar: sidebar
-keywords: 
-summary: 'System Manager reports various states for drives.'
+keywords: drive, states
+summary: "System Manager reports various states for drives."
 ---
 = Drive states
 :icons: font
@@ -12,7 +12,7 @@ summary: 'System Manager reports various states for drives.'
 System Manager reports various states for drives.
 
 == Accessibility states
-
+[options="header"]
 |===
 | State| Definition
 a|
@@ -43,7 +43,7 @@ The drive is not responding to commands.
 |===
 
 == Role states
-
+[options="header"]
 |===
 | State| Definition
 a|
@@ -65,7 +65,7 @@ The drive is not a member of a pool or volume group.
 |===
 
 == Availability states
-
+[options="header"]
 |===
 | State| Definition
 a|

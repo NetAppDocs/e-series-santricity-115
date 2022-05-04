@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/how-ssd-cache-works.html
 sidebar: sidebar
-keywords: 
-summary: 'The SSD Cache feature is a controller-based solution that caches the most frequently accessed data \("hot" data\) onto lower latency Solid State Drives \(SSDs\) to dynamically accelerate system performance. SSD Cache is used exclusively for host reads.'
+keywords: ssd, cache, works
+summary: "The SSD Cache feature is a controller-based solution that caches the most frequently accessed data onto lower latency Solid State Drives to dynamically accelerate system performance. SSD Cache is used exclusively for host reads."
 ---
 = How SSD Cache works
 :icons: font
@@ -37,6 +37,7 @@ SSD Cache is used only when System Manager determines that it is beneficial to p
 
 When the CPU needs to process read data, it follows the steps below:
 
+.Steps
 . Check DRAM cache.
 . If not found in DRAM cache, then check SSD Cache.
 . If not found in SSD Cache, then get from hard drive. If data is deemed worthwhile to cache, then copy to SSD Cache.
@@ -55,6 +56,7 @@ To use SSD Cache on a volume that is also using Drive Security (is secure-enable
 
 To implement SSD Cache, do the following:
 
+.Steps
 . Create the SSD Cache.
 . Associate the SSD Cache with the volumes for which you want to implement SSD read caching.
 

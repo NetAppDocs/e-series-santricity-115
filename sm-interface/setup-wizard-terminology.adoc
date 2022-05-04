@@ -1,8 +1,8 @@
 ---
 permalink: sm-interface/setup-wizard-terminology.html
 sidebar: sidebar
-keywords: 
-summary: 'Learn how the Setup wizard terms apply to your storage array.'
+keywords: setup, wizard, terminology
+summary: "Learn how the Setup wizard terms apply to your storage array."
 ---
 = Setup wizard terminology
 :icons: font
@@ -10,51 +10,35 @@ summary: 'Learn how the Setup wizard terms apply to your storage array.'
 
 [.lead]
 Learn how the Setup wizard terms apply to your storage array.
-
+[options="header"]
 |===
-| Term
-
-| Description
-
+| Term | Description
 a|
 Application
-
 a|
 An application is a software program, such as Microsoft SQL Server or Microsoft Exchange.
-
 a|
 Alert
-
 a|
 Alerts notify administrators about important events that occur on the storage arrays. Alerts can be sent via email, SNMP traps, or syslog.
-
 a|
 AutoSupport
-
 a|
 The AutoSupport feature monitors the health of a storage array and sends automatic dispatches to technical support.
-
 a|
 Hardware
-
 a|
 The storage system hardware includes storage arrays, controllers, and drives.
-
 a|
 Host
-
 a|
 A host is a server that sends I/O to a volume on a storage array.
-
 a|
 Object
-
 a|
 An object is any logical or physical storage component. Logical objects include volume groups, pools, and volumes. Physical objects include the storage array, array controllers, hosts, and drives.
-
 a|
 Pool
-
 a|
 A pool is a set of drives that is logically grouped. You can use a pool to create one or more volumes accessible to a host. (You create volumes from either a pool or a volume group.)
 a|

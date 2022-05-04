@@ -1,8 +1,8 @@
 ---
 permalink: sm-storage/create-synchronous-mirrored-volume.html
 sidebar: sidebar
-keywords: 
-summary: 'You mirror a volume synchronously to replicate data in real-time between storage arrays, so your information is protected from both system and site failures. You do this by selecting the primary volume and the secondary volume that you want to use in the synchronous mirroring relationship between a local storage array and a remote storage array.'
+keywords: create, synchronous, mirrored, volume
+summary: "You mirror a volume synchronously to replicate data in real-time between storage arrays, so your information is protected from both system and site failures. You do this by selecting the primary volume and the secondary volume that you want to use in the synchronous mirroring relationship between a local storage array and a remote storage array."
 ---
 = Create synchronous mirrored volume
 :experimental:
@@ -12,7 +12,7 @@ summary: 'You mirror a volume synchronously to replicate data in real-time betwe
 [.lead]
 You mirror a volume synchronously to replicate data in real-time between storage arrays, so your information is protected from both system and site failures. You do this by selecting the primary volume and the secondary volume that you want to use in the synchronous mirroring relationship between a local storage array and a remote storage array.
 
-== Before you begin
+.Before you begin
 
 * Because the Synchronous Mirroring feature requires the management of multiple storage arrays, you must have the browser-based SANtricity Unified Manager installed, and have discovered the two storage arrays you want to mirror data between. Then, from Unified Manager, you select the primary volume's storage array and click *Launch* to open the browser-based SANtricity System Manager.
 * You must have two storage arrays.
@@ -22,13 +22,13 @@ You mirror a volume synchronously to replicate data in real-time between storage
 * Your local and remote storage arrays must be connected through a Fibre Channel fabric.
 * You must have created both the primary and secondary volumes that you want to use in the synchronous mirror relationship.
 
-== About this task
+.About this task
 
 The process to mirror a volume synchronously is a multi-step procedure:
 
-* <<TASK_EE4B1B5B46D34996A691233EE97D1AEA,Step 1: Select the primary volume>>
-* <<TASK_45BF024845AE44BB88E3BA2D2FBCF11D,Step 2: Select the secondary volume>>
-* <<TASK_7395D15E09244A709DCC0C5A74ECC6F9,Step 3: Select synchronization settings>>
+* <<Step 1: Select the primary volume>>
+* <<Step 2: Select the secondary volume>>
+* <<Step 3: Select synchronization settings>>
 
 A volume can participate in only one mirror relationship.
 
@@ -37,17 +37,17 @@ A volume can participate in only one mirror relationship.
 [.lead]
 You must select the primary volume that you want to use in the synchronous mirror relationship. This volume holds the primary role in the mirror relationship.
 
-=== Before you begin
+.Before you begin
 
 * You must have created the primary volume that you want to use in the synchronous mirror relationship.
 * The primary volume must be a standard volume. It cannot be a thin volume or a snapshot volume.
 
-=== Steps
+.Steps
 
 . Do one of the following actions to access the synchronous mirroring sequence:
- ** Select *Storage* > *Synchronous Mirroring* > *Mirror volume*.
- ** Select *Storage* > *Volumes* > *Copy Services* > *Mirror a volume synchronously*.
-The Create Synchronous Mirrored Pair dialog appears.
+ ** Select menu:Storage[Synchronous Mirroring > Mirror volume].
+ ** Select menu:Storage[Volumes > Copy Services > Mirror a volume synchronously].
+The *Create Synchronous Mirrored Pair* dialog appears.
 . Select an existing volume that you want to use as the primary volume in the mirror.
 +
 [NOTE]
@@ -55,26 +55,26 @@ The Create Synchronous Mirrored Pair dialog appears.
 If a volume was selected in the Volumes tile and it is eligible to be mirrored, it will be selected by default.
 ====
 
-. Select *Next* and go to <<TASK_45BF024845AE44BB88E3BA2D2FBCF11D,Step 2: Select the secondary volume>>.
+. Select *Next* and go to <<Step 2: Select the secondary volume>>.
 
 == Step 2: Select the secondary volume
 
 [.lead]
 You must select the secondary volume that you want to use in the mirror relationship. This volume will hold the secondary role in the mirror relationship.
 
-=== Before you begin
+.Before you begin
 
 * You must have created the secondary volume that you want to use in the synchronous mirror relationship.
 * The secondary volume must be a standard volume. It cannot be a thin volume or a snapshot volume.
 * The secondary volume must be at least as large as the primary volume.
 
-=== About this task
+.About this task
 
 When you select a secondary volume on the remote storage array, the system displays a list of all the eligible volumes for that mirrored pair. Any volumes that are not eligible to be used do not display in that list.
 
 The volumes that appear in this dialog are sorted by capacity, starting with the volume nearest to the capacity of the primary volume capacity. Volumes with identical capacity are sorted alphabetically.
 
-=== Steps
+.Steps
 
 . Select the remote storage array on which you want to establish a mirror relationship with the local storage array.
 +
@@ -84,7 +84,7 @@ If your remote storage array is password protected, the system prompts for a pas
 ====
 
  ** Storage arrays are listed by their storage array name. If you have not named a storage array, it will be listed as "unnamed."
- ** If the storage array you want to use is not in the list, add it using the Enterprise Management Window (EMW) of SANtricity Storage Manager. Select *Edit* > *Add Storage Array*.
+ ** If the storage array you want to use is not in the list, add it using the Enterprise Management Window (EMW) of SANtricity Storage Manager. Select menu:Edit[Add Storage Array].
 
 . Select an existing volume that you want to use as the secondary volume in the mirror.
 +
@@ -93,14 +93,14 @@ If your remote storage array is password protected, the system prompts for a pas
 If a secondary volume is chosen with a capacity that is larger than the primary volume, the usable capacity is restricted to the size of the primary volume.
 ====
 
-. Click *Next* and go to <<TASK_7395D15E09244A709DCC0C5A74ECC6F9,Step 3: Select synchronization settings>>.
+. Click *Next* and go to <<Step 3: Select synchronization settings>>.
 
 == Step 3: Select synchronization settings
 
 [.lead]
 You must set the priority at which the controller owner of the primary volume resynchronizes data with the secondary volume after a communication interruption. You must also select the resynchronization policy, either manual or automatic.
 
-=== Steps
+.Steps
 
 . Use the slider bar to set the synchronization priority.
 +
@@ -108,8 +108,10 @@ The synchronization priority determines how much of the system resources are use
 +
 The priority set on this dialog applies to both the primary volume and the secondary volume. You can modify the rate on the primary volume at a later time by selecting menu:Storage[Synchronous Mirroring > More > Edit Settings].
 +
-More about synchronization rates
-+
+.More about synchronization rates
+[%collapsible]
+
+====
 There are five synchronization priority rates:
 
  ** Lowest
@@ -118,14 +120,15 @@ There are five synchronization priority rates:
  ** High
  ** Highest
 If the synchronization priority is set to the lowest rate, I/O activity is prioritized, and the resynchronization operation takes longer. If the synchronization priority is set to the highest rate, the resynchronization operation is prioritized, but I/O activity for the storage array might be affected.
+====
 
 . Choose whether you want to resynchronize the mirrored pairs on the remote storage array either manually or automatically.
- ** *Manual*(the recommended option) -- Select this option to require synchronization to be manually resumed after communication is restored to a mirrored pair. This option provides the best opportunity for recovering data.
- ** *Automatic*-- Select this option to start resynchronization automatically after communication is restored to a mirrored pair.
+ ** *Manual* (the recommended option) -- Select this option to require synchronization to be manually resumed after communication is restored to a mirrored pair. This option provides the best opportunity for recovering data.
+ ** *Automatic* -- Select this option to start resynchronization automatically after communication is restored to a mirrored pair.
 To manually resume synchronization go to menu:Storage[Synchronous Mirroring], highlight the mirrored pair in the table, and select *Resume* under *More*.
 . Click *Finish* to complete the synchronous mirroring sequence.
 
-=== Results
+.Results
 
 System Manager performs the following actions:
 
@@ -133,6 +136,6 @@ System Manager performs the following actions:
 * Begins initial synchronization between the local storage array and the remote storage array.
 * Sets the synchronization priority and resynchronization policy.
 
-=== After you finish
+.After you finish
 
-Select *Home* > *View Operations in Progress* to view the progress of the synchronous mirroring operation. This operation can be lengthy and could affect system performance.
+Select menu:Home[View Operations in Progress] to view the progress of the synchronous mirroring operation. This operation can be lengthy and could affect system performance.

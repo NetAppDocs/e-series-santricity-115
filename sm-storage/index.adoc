@@ -2,7 +2,7 @@
 permalink: sm-storage/index.html
 sidebar: sidebar
 keywords:
-summary: ''
+summary: " "
 ---
 = SANtricity System Manager 11.5
 :icons: font

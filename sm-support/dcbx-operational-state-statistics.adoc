@@ -1,14 +1,16 @@
 ---
 permalink: sm-support/dcbx-operational-state-statistics.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: dcbx, operational state, statistics
+summary: "When you select Data Center Bridging Exchange (DCBX) Operational State Statistics, these statistics appear."
 ---
 = DCBX operational state statistics
 :icons: font
 :imagesdir: ../media/
 
 When you select Data Center Bridging Exchange (DCBX) Operational State Statistics, these statistics appear.
+
+[cols="2*",options="header"]
 
 |===
 | Statistic| Definition
