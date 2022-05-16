@@ -12,7 +12,7 @@ summary: "You can view a Copy Volume operation in progress and stop, change prio
 [.lead]
 You can view a Copy Volume operation in progress and stop, change priority, re-copy, or clear a Copy Volume operation.
 
-== Steps
+.Steps
 
 . Select menu:Home[View Operations in Progress].
 +
