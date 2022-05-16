@@ -69,7 +69,7 @@ The mapped roles include the following permissions:
 The Monitor role is required for all users, including the administrator. System Manager will not operate correctly for any user without the Monitor role present.
 ====
 
-. Optionally, click *Add another mapping* to enter more group-to-role mappings.
+. *Optionally:* click *Add another mapping* to enter more group-to-role mappings.
 . Click *Save*.
 
 .Result
