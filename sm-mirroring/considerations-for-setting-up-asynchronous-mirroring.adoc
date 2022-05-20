@@ -1,0 +1,77 @@
+---
+permalink: sm-mirroring/considerations-for-setting-up-asynchronous-mirroring.html
+sidebar: sidebar
+keywords: considerations, setting up, asynchronous, mirror
+summary: "To ensure a successful configuration and set up, keep in mind some key considerations as part of your planning."
+---
+= Considerations for setting up asynchronous mirroring
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To ensure a successful configuration and set up, keep in mind some key considerations as part of your planning.
+
+== Launch SANtricity Unified Manager
+
+* Each controller in both the primary array and secondary array must have an Ethernet management port configured and must be connected to your network.
+* Asynchronous mirroring is configured by opening SANtricity Unified Manager. Any mirroring relationship requires that both the local and remote storage systems are discovered by and listed in SANtricity Unified Manager.
+* You must have the browser-based SANtricity Unified Manager installed, and have discovered the two storage arrays you want to mirror data between. Then, from Unified Manager, you select the primary volume's storage array and click Launch to open the browser-based SANtricity System Manager.
+
+== Activating
+
+Before using asynchronous mirroring, you must activate it on each storage array that participates in mirroring operations. Activation can be done through the CLI, REST API, or management graphical user interface (GUI).
+
+* For systems managed by SANtricity System Manager (E2800, E5700, EF570), no separate activation step is needed; activation occurs behind the scenes while mirror groups/pairs are being set up.
+* For systems managed by SANtricity Storage Manager (E2700, E5600, EF560), asynchronous mirroring is activated using the GUI on the legacy system that is not managed by SANtricity System Manager. If using iSCSI for asynchronous mirroring, the activation step is not needed.
+
+== Web services certificates and recommended browsers
+
+* *Trusted certificates*
++
+For mirroring involving systems managed by SANtricity System Manager, it is recommended to import the trusted certificates for the web services in SANtricity Unified Manager that allow the storage systems to authenticate with the web server. The steps within SANtricity Unified Manager are as follows:
+
+ .. Generate a certificate signing request (CSR) for the machine where SANtricity Unified Manager is installed.
+ .. Send the CSR to a certificate authority (CA).
+ .. When the CA sends back the signed certificates, import in Unified Manager.
+
+* *Self-signed certificates*
++
+Self-signed certificates can also be used. If the administrator attempts to configure mirroring without importing signed certificates, SANtricity System Manager displays an error dialog box that allows the administrator to accept the self-signed certificate. In this case, using the latest version of Chrome or Firefox as the browser is recommended.
++
+You can accept a self-signed certificate or install your own security certificate using Unified Manager and navigating to menu:Certificate[Certificate Management].
+
+== Supported connections
+
+Asynchronous mirroring can use either FC or iSCSI connections, or both for communication between local and remote storage systems. At the time of creating a mirror consistency group (also known as asynchronous mirror group), the administrator can select either FC or iSCSI for that group if both are connected to the remote storage array. There is no failover from one channel type to the other.
+
+Asynchronous mirroring uses the storage array's host-side I/O ports to convey mirrored data from the primary side to the secondary side.
+
+* *Mirroring through a Fibre Channel (FC) interface*
++
+Each controller of the storage array dedicates its highest numbered FC host port to mirroring operations.
++
+If the controller has both base FC ports and host interface card (HIC) FC ports, the highest numbered port is on an HIC. Any host logged on to the dedicated port is logged out, and no host login requests are accepted. I/O requests on this port are accepted only from controllers that are participating in mirroring operations.
++
+The dedicated mirroring ports must be attached to an FC fabric environment that supports the directory service and name service interfaces. In particular, FC-AL and point-to-point are not supported as connectivity options between the controllers that are participating in mirror relationships.
+
+* *Mirroring through an iSCSI interface*
++
+Unlike FC, iSCSI does not require a dedicated port. When asynchronous mirroring is used in iSCSI environments, it is not necessary to dedicate any of the storage array's front-end iSCSI ports for use with asynchronous mirroring; those ports are shared for both asynchronous mirror traffic and host-to-array I/O connections.
++
+The controller maintains a list of remote storage systems with which the iSCSI initiator attempts to establish a session. The first port that successfully establishes an iSCSI connection is used for all subsequent communication with that remote storage array. If communication fails, a new session is attempted using all available ports.
++
+iSCSI ports are configured at the array level on a port-by-port basis. Intercontroller communication for configuration messaging and data transfer uses the global settings, including settings for:
+
+ ** VLAN: Both local and remote systems must have the same VLAN setting to communicate
+ ** iSCSI listening port
+ ** Jumbo frames
+ ** Ethernet priority
+
++
+[NOTE]
+====
+The iSCSI intercontroller communication must use a host connect port and not the management Ethernet port.
+====
+
+Asynchronous mirroring uses the storage array's host-side I/O ports to convey mirrored data from the primary side to the secondary side. Because asynchronous mirroring is intended for higher-latency, lower-cost networks, iSCSI (and thus TCP/IP-based) connections are a good fit for it. When asynchronous mirroring is used in iSCSI environments, it is not necessary to dedicate any of the array's front-end iSCSI ports for use with asynchronous mirroring; those ports are shared for both asynchronous mirror traffic and host-to-array I/O connections

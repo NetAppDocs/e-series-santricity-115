@@ -1,0 +1,21 @@
+---
+permalink: sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html
+sidebar: sidebar
+keywords: access, mirror, feature
+summary: "To use either the Asynchronous Mirroring feature or the Synchronous Mirroring feature, you must have the SANtricity Unified Manager running on your local host through an HTTPS connection to discover the storage arrays that are mirroring-capable and to initiate the mirroring operation. From Unified Manager, you must select the storage array from which you want to mirror data from and then click Launch to open SANtricity System Manager."
+---
+= Why can't I access my chosen mirroring feature?
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+To use either the Asynchronous Mirroring feature or the Synchronous Mirroring feature, you must have the SANtricity Unified Manager running on your local host through an HTTPS connection to discover the storage arrays that are mirroring-capable and to initiate the mirroring operation. From Unified Manager, you must select the storage array from which you want to mirror data from and then click Launch to open SANtricity System Manager.
+
+To use the mirroring feature verify the following:
+
+* The Web Services Proxy service is running.
+* SANtricity Unified Manager is running on your local host through an HTTPS connection.
+* SANtricity Unified Manager is showing valid SSL certificates for the storage array. You can accept a self-signed certificate or install your own security certificate using Unified Manager and navigating to menu:Certificate[Certificate Management].
+* SANtricity System Manager is launched from a Unified Manager.
+* You must have discovered the two storage arrays you want to mirror data between. Then, from Unified Manager, you select the primary volume's storage array and click *Launch* to open the browser-based SANtricity System Manager.

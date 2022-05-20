@@ -1,0 +1,41 @@
+---
+permalink: sm-settings/delete-trusted-certificates.html
+sidebar: sidebar
+keywords: delete, trusted, certificates
+summary: "You can delete any of the user-imported certificates."
+---
+= Delete trusted certificates
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete any of the user-imported certificates.
+
+.Before you begin
+
+* You must be logged in with a user profile that includes Security admin permissions. Otherwise, certificate functions do not appear.
+* If you are updating a trusted certificate with a new version, the updated certificate must be imported before you delete the old certificate.
+
+[CAUTION]
+====
+You might lose access to the system if you delete a certificate used to authenticate the storage array's management certificates or LDAP server before you import a replacement certificate.
+====
+
+.About this task
+
+This task describes how to delete user-imported certificates. Predefined certificates cannot be deleted.
+
+.Steps
+
+. Select menu:Settings[Certificates].
+. Select the *Trusted* tab.
++
+The table shows the storage array's trusted certificates.
+
+. From the table, select the certificate you want to remove.
+. Click menu:Uncommon Tasks[Delete].
++
+A Confirm Delete Trusted Certificate dialog box opens.
+
+. Type `delete` in the field, and then click *Delete*.
