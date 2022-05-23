@@ -68,8 +68,6 @@ entries:
         url: "/sm-support/view-iser-over-infiniband-statistics-support.html"
     - title: Manage NVMe connections
       entries:
-      - title: View NVMe over InfiniBand statistics packages
-        url: "/sm-support/view-nvme-over-infiniband-statistics-support.html"
       - title: View NVMe over Fabrics statistics
         url: "/sm-support/view-nvme-over-fabrics-statistics-support.html"
     - title: Manage AutoSupport
