@@ -601,13 +601,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-hardware/configure-iscsi-ports-hardware.html</loc>
-      
-      <lastmod>2022-04-01T10:24:17+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-settings/configure-iscsi-ports-hardware.html</loc>
       
       <lastmod>2022-04-12T12:16:28+00:00</lastmod>
@@ -615,7 +608,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-hardware/configure-iser-over-infiniband-ports-hardware.html</loc>
+      <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-hardware/configure-iscsi-ports-hardware.html</loc>
       
       <lastmod>2022-04-01T10:24:17+00:00</lastmod>
       
@@ -625,6 +618,13 @@
       <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-settings/configure-iser-over-infiniband-ports-hardware.html</loc>
       
       <lastmod>2022-04-12T12:16:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-hardware/configure-iser-over-infiniband-ports-hardware.html</loc>
+      
+      <lastmod>2022-04-01T10:24:17+00:00</lastmod>
       
     </url>
   
@@ -657,13 +657,6 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-hardware/configure-nvme-over-infiniband-ports-hardware.html</loc>
-      
-      <lastmod>2022-04-01T10:24:17+00:00</lastmod>
-      
-    </url>
-  
-    <url>
       <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-settings/configure-nvme-over-infiniband-ports-hardware.html</loc>
       
       <lastmod>2022-04-12T12:16:28+00:00</lastmod>
@@ -671,7 +664,7 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-hardware/configure-nvme-over-roce-ports-hardware.html</loc>
+      <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-hardware/configure-nvme-over-infiniband-ports-hardware.html</loc>
       
       <lastmod>2022-04-01T10:24:17+00:00</lastmod>
       
@@ -681,6 +674,13 @@
       <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-settings/configure-nvme-over-roce-ports-hardware.html</loc>
       
       <lastmod>2022-04-12T12:16:28+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-hardware/configure-nvme-over-roce-ports-hardware.html</loc>
+      
+      <lastmod>2022-04-01T10:24:17+00:00</lastmod>
       
     </url>
   
@@ -1637,14 +1637,14 @@
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-hardware/</loc>
+      <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-settings/</loc>
       
       <lastmod>2022-03-14T13:53:38+00:00</lastmod>
       
     </url>
   
     <url>
-      <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-settings/</loc>
+      <loc>https://docs.netapp.com/us-en/e-series-santricity-115/sm-hardware/</loc>
       
       <lastmod>2022-03-14T13:53:38+00:00</lastmod>
       
@@ -2052,7 +2052,7 @@
     <url>
       <loc>https://docs.netapp.com/us-en/e-series-santricity-115//search.html</loc>
       
-      <lastmod>2022-06-07T17:38:41+00:00</lastmod>
+      <lastmod>2022-07-19T11:41:51+00:00</lastmod>
       
     </url>
   
